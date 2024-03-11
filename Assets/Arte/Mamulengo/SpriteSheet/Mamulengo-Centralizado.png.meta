@@ -1,0 +1,1544 @@
+fileFormatVersion: 2
+guid: d4f5a1715ee148b40ab49c5712ea6ba8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3af015b81dee0e41b51d29e36bd04dc
+      internalID: 1746065358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d827f10aace5584b9ae684dbd294f72
+      internalID: 1399595221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a39917602db85469c7308aad0bab58
+      internalID: 1772837398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff1e05bf37d97248aa1cabc868cc923
+      internalID: -1748738666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_4
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc07c138dd32964f9dd21d80315817e
+      internalID: -332826319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_5
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97306e0ebc460494191f305c9c06f207
+      internalID: 1798208581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6ffebf2e0979642ba05debe9da58b8
+      internalID: -310729563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_7
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a413588c40a684c8301b6e4c41853f
+      internalID: -316101045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_8
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4987fdf6a6cf4e499734290071bea5b
+      internalID: 422206464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_9
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215965986998eff43bb7770927783508
+      internalID: 1026349302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_10
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9e9c84d597bcf43997717b8361b910
+      internalID: -378550609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_11
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fe4826ff139c8449eb9bebcf3f9222
+      internalID: -347265499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_12
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e167d9c8e07fdb4409fb86c076cd13d3
+      internalID: 1650519167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_13
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22e157cdc9032b4ea25ad8109a298b7
+      internalID: 1010516153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_14
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a366f1bc61f2d408f52843749976e4
+      internalID: -826296220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_15
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a6f81e24cb44c4c8879932886051be
+      internalID: -918272632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_16
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc163b2de14d61478dbd4f2b06a82d3
+      internalID: -1690927763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_17
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355ed4e860dda1448ab2d7aab36b2e95
+      internalID: 1255279978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_18
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9582f2ba258ba3a4a8a58660733fe4ed
+      internalID: -1521413286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_19
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e30aeaeeb6c0a4595b905a22568012
+      internalID: -394657794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_20
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e509b38838e5234ea6046d164206aa2
+      internalID: 1486040984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_21
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a506984a526eca4499827b9011d3d0d
+      internalID: -1614869117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_22
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdd08655ecaa9a4eb6e9f260f74acac
+      internalID: -1155787555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_23
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e1a8b160bb97141b0b95933a28f4c6
+      internalID: -1443591904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_24
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 16
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e19992b814738a499c16e17e00d63db
+      internalID: -1316997438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ad1aeb19fe74b45aaa4b1319c87eb4
+      internalID: -1966784777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73ec8034fc014e48a533a26a8d4ad90
+      internalID: 2131145914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_27
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7e455db3f964341b882fc3193f7265
+      internalID: 1532537290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_28
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1ede029aa469c4198b7c230d240299
+      internalID: -375023553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_29
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028d8a0cff6845d43a2f67f961ba6e2f
+      internalID: -526318810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_30
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209d3676b2eeafe4397216dc4017677c
+      internalID: 378929554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_31
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3830505689afd4f92dd6be88bdab00
+      internalID: -95375827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_32
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c53e75cd74d6446b1983f302a66540
+      internalID: 183030415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_33
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3dde6ea53821d4284b04ee29171398
+      internalID: -458389801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_34
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 288
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fd8d594188fcf4a936143c0d3960a5
+      internalID: 199347908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_35
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 778
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc91e1b9e1bf584eb4c5795c5d29e2c
+      internalID: 883048407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 778
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642b917dd7bcf724388eeb92ca4cc691
+      internalID: 1504895976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_37
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 778
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656fa6bb19db7cf45adc4adfd8cd751d
+      internalID: 2009595875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_38
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 778
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c17e0b5db3db5c4ba264dbbec1eb70b
+      internalID: 1679338641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_39
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 782
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590cce63561d69c418235c90751e6b77
+      internalID: 1416831734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_40
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 778
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b1ce495cf267d42bf2f476f865a88f
+      internalID: -1670196180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_41
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 778
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77b849563b039b4fa0a8c3c45148d9b
+      internalID: -171812152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_42
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 778
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149776315a1c8564bbded030de0535b0
+      internalID: -1200743366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_43
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 778
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0d9741738d4434ab2416e340275d10
+      internalID: 1243848755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_44
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 782
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a08b18c40113d4c91dab667d0c844f
+      internalID: 1505170219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_45
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1074
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cbea80f994f15489e51f71ec0c12bd
+      internalID: -1953059117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_46
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1074
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c59494b3f8edf43960d23fc27aaae0
+      internalID: -1558868056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_47
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1074
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e5c43d13025094abb0452cef28a4c0
+      internalID: -1388984288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_48
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1074
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddf2912c352bb74b888890fbe296cf8
+      internalID: -577748722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_49
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1078
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4ec086d7a5e9345aa8681d2b25ec1e
+      internalID: 96515001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_50
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1074
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66f2031ba2a3994ab8342472dd556c0
+      internalID: -625130248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_51
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1074
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de5c28bae46b8e4fac81402a9dd22ff
+      internalID: -786612545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_52
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1074
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d09375bdfc18143a13e038578aea08
+      internalID: 696293900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_53
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1074
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60023afc47f529f43ba45a9c9ab6509d
+      internalID: -1289701788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_54
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1078
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3fbf8d8fc069846b5a75538f42a6a8
+      internalID: 1768368082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_55
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4a36e8ac57e4d4b9c32c2021aaa15d
+      internalID: -134422060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_56
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f131475457613c244a35280cb441c884
+      internalID: 203385417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_57
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eaa66b6442e5443a6c63948886998e
+      internalID: 507647756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_58
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28911d20543de0468a6f80baed8d9c8
+      internalID: -2128287400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_59
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6125295ced441334b967140be3bfd940
+      internalID: -1186516191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_60
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c059c0c7819aca40a76be322c6e4da7
+      internalID: 2047460553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_61
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170436d9aa8a27f4981934b941090e34
+      internalID: 35319598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_62
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642f94e8525aaf748a4fc367f45dd58a
+      internalID: -2119606252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_63
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69f08bf29f68a14783f08190591b572
+      internalID: 929249174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mamulengo-Centralizado_64
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1325
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b74de62f3cff104981f4262726844f7
+      internalID: -278023297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mamulengo-Centralizado_0: 1746065358
+      Mamulengo-Centralizado_1: 1399595221
+      Mamulengo-Centralizado_10: -378550609
+      Mamulengo-Centralizado_11: -347265499
+      Mamulengo-Centralizado_12: 1650519167
+      Mamulengo-Centralizado_13: 1010516153
+      Mamulengo-Centralizado_14: -826296220
+      Mamulengo-Centralizado_15: -918272632
+      Mamulengo-Centralizado_16: -1690927763
+      Mamulengo-Centralizado_17: 1255279978
+      Mamulengo-Centralizado_18: -1521413286
+      Mamulengo-Centralizado_19: -394657794
+      Mamulengo-Centralizado_2: 1772837398
+      Mamulengo-Centralizado_20: 1486040984
+      Mamulengo-Centralizado_21: -1614869117
+      Mamulengo-Centralizado_22: -1155787555
+      Mamulengo-Centralizado_23: -1443591904
+      Mamulengo-Centralizado_24: -1316997438
+      Mamulengo-Centralizado_25: -1966784777
+      Mamulengo-Centralizado_26: 2131145914
+      Mamulengo-Centralizado_27: 1532537290
+      Mamulengo-Centralizado_28: -375023553
+      Mamulengo-Centralizado_29: -526318810
+      Mamulengo-Centralizado_3: -1748738666
+      Mamulengo-Centralizado_30: 378929554
+      Mamulengo-Centralizado_31: -95375827
+      Mamulengo-Centralizado_32: 183030415
+      Mamulengo-Centralizado_33: -458389801
+      Mamulengo-Centralizado_34: 199347908
+      Mamulengo-Centralizado_35: 883048407
+      Mamulengo-Centralizado_36: 1504895976
+      Mamulengo-Centralizado_37: 2009595875
+      Mamulengo-Centralizado_38: 1679338641
+      Mamulengo-Centralizado_39: 1416831734
+      Mamulengo-Centralizado_4: -332826319
+      Mamulengo-Centralizado_40: -1670196180
+      Mamulengo-Centralizado_41: -171812152
+      Mamulengo-Centralizado_42: -1200743366
+      Mamulengo-Centralizado_43: 1243848755
+      Mamulengo-Centralizado_44: 1505170219
+      Mamulengo-Centralizado_45: -1953059117
+      Mamulengo-Centralizado_46: -1558868056
+      Mamulengo-Centralizado_47: -1388984288
+      Mamulengo-Centralizado_48: -577748722
+      Mamulengo-Centralizado_49: 96515001
+      Mamulengo-Centralizado_5: 1798208581
+      Mamulengo-Centralizado_50: -625130248
+      Mamulengo-Centralizado_51: -786612545
+      Mamulengo-Centralizado_52: 696293900
+      Mamulengo-Centralizado_53: -1289701788
+      Mamulengo-Centralizado_54: 1768368082
+      Mamulengo-Centralizado_55: -134422060
+      Mamulengo-Centralizado_56: 203385417
+      Mamulengo-Centralizado_57: 507647756
+      Mamulengo-Centralizado_58: -2128287400
+      Mamulengo-Centralizado_59: -1186516191
+      Mamulengo-Centralizado_6: -310729563
+      Mamulengo-Centralizado_60: 2047460553
+      Mamulengo-Centralizado_61: 35319598
+      Mamulengo-Centralizado_62: -2119606252
+      Mamulengo-Centralizado_63: 929249174
+      Mamulengo-Centralizado_64: -278023297
+      Mamulengo-Centralizado_7: -316101045
+      Mamulengo-Centralizado_8: 422206464
+      Mamulengo-Centralizado_9: 1026349302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
