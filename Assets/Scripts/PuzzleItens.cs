@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu(menuName = "New Item", fileName = "Inventory/New Item")]
 public class PuzzleItens : ScriptableObject

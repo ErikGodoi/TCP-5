@@ -5,18 +5,17 @@ using UnityEngine;
 public class InventoryUiController : MonoBehaviour
 {
     public List<UIItemDisplay> itemDisplays;
+    public InventoryManager inventoryManager;
 
-    public Inventory inventory;
-
-    // Example: Call this method to update the UI with the player's inventory
+    // Update the UI to display the player's inventory
     public void UpdateUI()
     {
         for (int i = 0; i < itemDisplays.Count; i++)
         {
-            if (i < inventory.items.Count)
+            if (i < inventoryManager.items.Count)
             {
                 // If the slot index is within the range of the items in the inventory, display the item
-                itemDisplays[i].DisplayItem(inventory.items[i]);
+                itemDisplays[i].DisplayItem(inventoryManager.items[i]);
             }
             else
             {

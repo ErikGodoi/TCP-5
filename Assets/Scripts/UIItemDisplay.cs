@@ -6,29 +6,32 @@ using UnityEngine.EventSystems;
 
 public class UIItemDisplay : MonoBehaviour, IPointerClickHandler
 {
+    public Image parentImage;
+    public Sprite selecionado, naoSelecionado;
     public Image itemImage;
+    public InventoryManager inventoryManager;
 
-    public PuzzleItens item1; // Reference to the associated item
+    public PuzzleItens item; // Reference to the associated item
 
-
-    private Inventory playerInventory;
+    public bool itemSelecionado;
 
     public delegate void ItemClickAction (PuzzleItens clickedItem);
-    public static event ItemClickAction OnItemClick;
+    //public static event ItemClickAction OnItemClick;
 
     private void Start()
     {
-        playerInventory = FindObjectOfType<Inventory>();
+        parentImage.sprite = naoSelecionado;
+        itemSelecionado = false;
+        inventoryManager = FindObjectOfType<InventoryManager>();
         itemImage = GetComponent<Image>();
     }
-    public void DisplayItem(PuzzleItens item)
+    public void DisplayItem(PuzzleItens _item)
     {
-        if (item.sprite != null)
+        if (_item.sprite != null)
         {
-            item1 = item;
-            itemImage.sprite = item.sprite;
+            item = _item;
+            itemImage.sprite = _item.sprite;
             itemImage.enabled = true;
-            itemImage.color = new Color(255, 255, 255, 255);
         }
         else
         {
@@ -39,18 +42,37 @@ public class UIItemDisplay : MonoBehaviour, IPointerClickHandler
     // Clear the UI slot
     public void ClearItem()
     {
-        item1 = null;
+        item = null;
         itemImage.sprite = null;
         itemImage.enabled = false;
     }
     // Handle item click
     public void OnPointerClick(PointerEventData eventData)
     {
-        // Trigger the item click event
-        if (item1 != null && OnItemClick != null)
+        if (item == null || !item.puzzleItem)
+            return;
+
+        if (!itemSelecionado)
         {
-            playerInventory.SelectItem(item1);
-            Debug.Log("Item selected: " + item1.itemName);
+            SelecionarItem();
         }
+        else
+        {
+            DeselecionarItem();
+        }
+    }
+    private void SelecionarItem()
+    {
+        parentImage.sprite = selecionado;
+        itemSelecionado = true;
+        inventoryManager.SelectItem(item);
+        //Debug.Log("Item selected: " + item.itemName);
+    }
+    private void DeselecionarItem()
+    {
+        parentImage.sprite = naoSelecionado;
+        itemSelecionado = false;
+        inventoryManager.SelectItem(null);
+        //Debug.Log("Item deselecionado: " + item.itemName);
     }
 }

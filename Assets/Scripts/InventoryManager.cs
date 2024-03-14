@@ -1,12 +1,11 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Inventory", menuName = "Inventory/Inventory")]
-public class Inventory : ScriptableObject
+public class InventoryManager : MonoBehaviour
 {
     public List<PuzzleItens> items = new List<PuzzleItens>();
-    private PuzzleItens itemSelecionado;
+    public PuzzleItens selectedItem {get; private set;}
+
     public void AddItem(PuzzleItens newItem)
     {
         if (newItem.stackable && items.Contains(newItem))
@@ -26,24 +25,21 @@ public class Inventory : ScriptableObject
             items.Remove(itemToRemove);
         }
     }
-    public void ClearInventory()
+    public void UseItem(PuzzleItens item, GameObject target)
     {
-        items.Clear();
+        if (item != null && item.puzzleItem)
+        {
+            item.UseItem(target);
+            RemoveItem(item);
+        }
     }
     public void SelectItem(PuzzleItens item)
     {
-        itemSelecionado = item;
+        selectedItem = item;
     }
 
     public void UseSelectedItem(GameObject target)
     {
-        if (itemSelecionado != null && itemSelecionado.puzzleItem)
-        {
-            itemSelecionado.UseItem(target);
-
-
-            // Optionally, remove the used item from the inventory
-            // RemoveItem(itemSelecionado);
-        }
+        UseItem(selectedItem, target);
     }
 }

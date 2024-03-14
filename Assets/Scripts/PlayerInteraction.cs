@@ -1,19 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public Inventory playerInventory;
+    public InventoryManager playerInventory;
+    public LayerMask interactionLayer; // Camada dos objetos com os quais o jogador pode interagir
 
     private void Update()
     {
-        // Usar EventSystem para fazer com que o input seja quando o objeto é selecionado ao inves de Keycode.U
-        // Example: Use the selected item when a specific key is pressed
-        if (Input.GetKeyDown(KeyCode.U))
+        // Verifique se um item está selecionado e se houve um clique do mouse
+        if (playerInventory.selectedItem != null && Input.GetMouseButtonDown(0))
         {
-            // Provide the target GameObject as an example (replace with your own logic)
+            // Encontre o objeto da cena com o qual o jogador quer interagir
             GameObject targetObject = FindTargetObject();
+
+            // Se um objeto de interação foi encontrado, use o item selecionado nele
             if (targetObject != null)
             {
                 playerInventory.UseSelectedItem(targetObject);
@@ -23,9 +23,19 @@ public class PlayerInteraction : MonoBehaviour
 
     private GameObject FindTargetObject()
     {
-        // Implement your logic to find the target object in the game
-        // For example, raycasting or checking the player's surroundings
-        // Replace this with your actual logic based on your game design
+        // Lança um raio a partir da posição do mouse na tela
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        // Verifica se o raio atinge algum objeto na camada de interação
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, interactionLayer))
+        {
+            // Retorna o objeto atingido pelo raio
+            Debug.Log(hit.collider.gameObject);
+            return hit.collider.gameObject;
+        }
+
+        // Retorna nulo se nenhum objeto de interação for atingido
         return null;
     }
 }
