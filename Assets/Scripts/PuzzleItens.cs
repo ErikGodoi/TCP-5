@@ -18,7 +18,7 @@ public class PuzzleItens : ScriptableObject
     public bool stackable; // se o item pego tiver mais de 1 do mesmo, se eles pode existir mais de 1 deles no mesmo slot
 
     // O que acontece quando o item é usado
-    public virtual void UseItem(GameObject target)
+    public virtual void UseItem(PuzzleSolver target)
     {
         // Implement item usage logic here
         Debug.Log("Used " + itemName + " on " + target.name);

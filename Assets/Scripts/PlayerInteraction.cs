@@ -11,7 +11,7 @@ public class PlayerInteraction : MonoBehaviour
         if (playerInventory.selectedItem != null && Input.GetMouseButtonDown(0))
         {
             // Encontre o objeto da cena com o qual o jogador quer interagir
-            GameObject targetObject = FindTargetObject();
+            PuzzleSolver targetObject = FindTargetObject();
 
             // Se um objeto de interação foi encontrado, use o item selecionado nele
             if (targetObject != null)
@@ -21,7 +21,7 @@ public class PlayerInteraction : MonoBehaviour
         }
     }
 
-    private GameObject FindTargetObject()
+    private PuzzleSolver FindTargetObject()
     {
         // Lança um raio a partir da posição do mouse na tela
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -32,7 +32,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             // Retorna o objeto atingido pelo raio
             Debug.Log(hit.collider.gameObject);
-            return hit.collider.gameObject;
+            return hit.collider.gameObject.GetComponent<PuzzleSolver>();
         }
 
         // Retorna nulo se nenhum objeto de interação for atingido

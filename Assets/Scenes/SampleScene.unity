@@ -1466,6 +1466,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004316065}
   m_CullTransparentMesh: 1
+--- !u!1 &1022605414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6279218099660506260, guid: 22f550e70a8bc9c42b86b095005099ef, type: 3}
+  m_PrefabInstance: {fileID: 1757343919}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1073868788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2075,6 +2080,7 @@ Transform:
   - {fileID: 1493437735}
   - {fileID: 316630090}
   - {fileID: 559891413}
+  - {fileID: 1469236180}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1230485916
@@ -2926,12 +2932,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469236178}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.055578, y: 2.50671, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1181478480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1469236181
 MonoBehaviour:
@@ -2945,6 +2951,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274dd9cb92b2dff489441b9cf6615d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  etapa: 0
+  inventoryManager: {fileID: 1970772779}
+  obstaculo: {fileID: 1022605414}
 --- !u!61 &1469236182
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4065,6 +4074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
+  uiController: {fileID: 1970772777}
 --- !u!1 &2047232939
 GameObject:
   m_ObjectHideFlags: 0
@@ -4503,7 +4513,6 @@ SceneRoots:
   - {fileID: 1970772776}
   - {fileID: 519420032}
   - {fileID: 1181478480}
-  - {fileID: 1469236180}
   - {fileID: 1436701262}
   - {fileID: 1890877253}
   - {fileID: 616397538}

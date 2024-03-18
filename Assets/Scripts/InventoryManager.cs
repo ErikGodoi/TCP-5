@@ -4,6 +4,7 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     public List<PuzzleItens> items = new List<PuzzleItens>();
+    public InventoryUiController uiController;
     public PuzzleItens selectedItem {get; private set;}
 
     public void AddItem(PuzzleItens newItem)
@@ -23,9 +24,11 @@ public class InventoryManager : MonoBehaviour
         if (items.Contains(itemToRemove))
         {
             items.Remove(itemToRemove);
+            uiController.UpdateUI();
+            selectedItem = null;
         }
     }
-    public void UseItem(PuzzleItens item, GameObject target)
+    public void UseItem(PuzzleItens item, PuzzleSolver target)
     {
         if (item != null && item.puzzleItem)
         {
@@ -38,7 +41,7 @@ public class InventoryManager : MonoBehaviour
         selectedItem = item;
     }
 
-    public void UseSelectedItem(GameObject target)
+    public void UseSelectedItem(PuzzleSolver target)
     {
         UseItem(selectedItem, target);
     }

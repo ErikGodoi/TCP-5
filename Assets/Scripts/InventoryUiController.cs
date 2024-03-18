@@ -15,6 +15,8 @@ public class InventoryUiController : MonoBehaviour
             if (i < inventoryManager.items.Count)
             {
                 // If the slot index is within the range of the items in the inventory, display the item
+                itemDisplays[i].itemSelecionado = false;
+                itemDisplays[i].ClearItem();
                 itemDisplays[i].DisplayItem(inventoryManager.items[i]);
             }
             else

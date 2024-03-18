@@ -45,6 +45,7 @@ public class UIItemDisplay : MonoBehaviour, IPointerClickHandler
         item = null;
         itemImage.sprite = null;
         itemImage.enabled = false;
+        parentImage.sprite = naoSelecionado;
     }
     // Handle item click
     public void OnPointerClick(PointerEventData eventData)
@@ -63,12 +64,13 @@ public class UIItemDisplay : MonoBehaviour, IPointerClickHandler
     }
     private void SelecionarItem()
     {
+        //DeselecionarItem();
         parentImage.sprite = selecionado;
         itemSelecionado = true;
         inventoryManager.SelectItem(item);
         //Debug.Log("Item selected: " + item.itemName);
     }
-    private void DeselecionarItem()
+    public void DeselecionarItem()
     {
         parentImage.sprite = naoSelecionado;
         itemSelecionado = false;
