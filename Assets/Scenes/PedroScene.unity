@@ -3270,6 +3270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274dd9cb92b2dff489441b9cf6615d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryManager: {fileID: 0}
+  obstaculo: {fileID: 0}
 --- !u!61 &1469236182
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4398,6 +4400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
+  uiController: {fileID: 1970772777}
 --- !u!1 &2047232939
 GameObject:
   m_ObjectHideFlags: 0
