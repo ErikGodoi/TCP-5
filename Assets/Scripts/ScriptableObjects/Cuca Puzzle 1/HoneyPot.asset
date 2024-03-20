@@ -17,5 +17,5 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 0bab7ad787b2dbb4c89dbd64947561e3, type: 3}
   puzzleItem: 1
   colisorTrigger: 1
-  quantidade: 0
+  quantidade: 1
   stackable: 0
