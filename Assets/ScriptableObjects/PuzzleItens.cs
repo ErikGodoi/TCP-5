@@ -11,13 +11,13 @@ public class PuzzleItens : ScriptableObject
 
     public bool puzzleItem; // pode ser usado para resolver o puzzle
 
-    public bool colisorTrigger; // se o colisor do item È um trigger ou n„o
+    public bool colisorTrigger; // se o colisor do item √© um trigger ou n√£o
 
     public int quantidade; // se for possivel ter mais de 1 do mesmo item
 
     public bool stackable; // se o item pego tiver mais de 1 do mesmo, se eles pode existir mais de 1 deles no mesmo slot
 
-    // O que acontece quando o item È usado
+    // O que acontece quando o item √© usado
     public virtual void UseItem(PuzzleSolver target)
     {
         // Implement item usage logic here

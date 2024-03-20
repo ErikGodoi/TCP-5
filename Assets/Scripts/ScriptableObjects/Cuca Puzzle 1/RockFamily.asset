@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c845d77af4f90b47b20405989122484, type: 3}
+  m_Script: {fileID: 11500000, guid: bbf919aa8ae3e0a44aa554c7e88b037e, type: 3}
   m_Name: RockFamily
   m_EditorClassIdentifier: 
-  Index: 0
-  itemName: RockFamily
+  Index: 3
+  itemName: rockFamily
   sprite: {fileID: 21300000, guid: f6013092d90d0634a92e17c2b969f093, type: 3}
   puzzleItem: 0
   colisorTrigger: 0

@@ -1,50 +1,55 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instancia = null;
+    public static GameManager instance = null;
 
-    public bool fase1, fase2, fase3;
-
-    Vector3 camPos1, camPos2, camPos3;
-
+    [SerializeField] string currentRoom = "Cuca_Room1";
+    
     public Camera cam;
+    [SerializeField] Vector3 camPos;
+
     void Awake()
     {
-        if (instancia == null)
+        if (instance == null)
         {
-            instancia = this;
+            instance = this;
         }
-        else if (instancia != this)
+        else if (instance != this)
         {
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
     }
+    
     private void Start()
     {
-        fase1 = true;
-        fase2 = false;
-        fase3 = false;
-        camPos1 = new Vector3(0, 0, -10);
-        camPos2 = new Vector3(25, 0, -10);
-        camPos3 = new Vector3(50, 0, -10);
+        //Inicia a camera para a posição da sala
+        UpdateCam(currentRoom);
     }
+
     private void Update()
     {
-        if (fase1)
-        {
-            cam.transform.position = camPos1;
-        }
-        if (fase2)
-        {
-            cam.transform.position = camPos2;
-        }
-        if (fase3)
-        {
-            cam.transform.position = camPos3;
-        }
+        
     }
+
+    private void UpdateCam(string currentRoom)
+    {
+        camPos = GameObject.Find(currentRoom).transform.position;
+        camPos.z = -10.0f;
+        cam.transform.position = camPos;
+    }
+
+    public void ChangeRoom(string nextRoom)
+    {
+        currentRoom = nextRoom;
+        UpdateCam(nextRoom);
+    }
+
+
 }

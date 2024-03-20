@@ -1,14 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class Jogador_Mov : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public LayerMask collisionLayer;
     public float rayLength;
-
+    
     public bool parado;
+    //Input Actions
+    private PlayerInput playerInput;
+    private float horizontalMovement;
+    private float verticalMovement;
     
     // Troca de Cena
     public GameManager manager;
@@ -16,13 +21,17 @@ public class Jogador_Mov : MonoBehaviour
     // Anima��o
     public Animator animacao;
 
-    // Point & Click Eu odeio todos vcs, v�o se foderem
+    // Point & Click
     public bool pointClick;
     public int speed;
 
     private Vector2 target;
     private Vector2 velocity = Vector2.zero;
 
+    private void Awake() 
+    {
+        playerInput = GetComponent<PlayerInput>();
+    }
     void Start()
     {
         target = transform.position;
@@ -44,7 +53,7 @@ public class Jogador_Mov : MonoBehaviour
         }
         else
         {
-            MovimentacaoEAnimacao();
+            Move();
         }
     }
     private void FixedUpdate()
@@ -58,11 +67,29 @@ public class Jogador_Mov : MonoBehaviour
             }
         }
     }
-    public void MovimentacaoEAnimacao()
+
+    void OnMove(InputValue value)
     {
-        float inputX = Input.GetAxis("Horizontal");
-        float inputY = Input.GetAxis("Vertical");
+        horizontalMovement = value.Get<Vector2>().x;
+        //Debug.Log("Movimento Horizontal: " + horizontalMovement);
+        verticalMovement = value.Get<Vector2>().y;
+    }
+
+    void OnAction(InputValue value)
+    {
+        if (value.isPressed)
+        {
+
+        }
+        //Debug.Log("ação pressionada");
+    }
+
+    public void Move()
+    {
+        float inputX = horizontalMovement;
+        float inputY = verticalMovement;
         Vector2 movement = new Vector2(inputX, inputY);
+
         if (!parado)
         {
             MovePlayer(movement);
@@ -105,6 +132,7 @@ public class Jogador_Mov : MonoBehaviour
             animacao.SetBool("Parado", true);
         }
     }
+    
     private void MovePlayer(Vector2 movement)
     {
         // Perform raycasts in both horizontal and vertical directions
@@ -122,6 +150,7 @@ public class Jogador_Mov : MonoBehaviour
             transform.Translate(Vector2.up * movement.y * moveSpeed * Time.deltaTime);
         }
     }
+    
     private bool CheckMovement(Vector2 direction)
     {
         if (direction.y < 0)
@@ -149,6 +178,7 @@ public class Jogador_Mov : MonoBehaviour
         // Check if there is a collider in the way
         //return hit.collider == null && hit.collider == null;
     }
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerExit(collision);

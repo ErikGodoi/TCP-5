@@ -10,6 +10,7 @@ public class UIItemDisplay : MonoBehaviour, IPointerClickHandler
     public Sprite selecionado, naoSelecionado;
     public Image itemImage;
     public InventoryManager inventoryManager;
+    public InventoryUiController inventoryUiController;
 
     public PuzzleItens item; // Reference to the associated item
 
@@ -20,6 +21,7 @@ public class UIItemDisplay : MonoBehaviour, IPointerClickHandler
 
     private void Start()
     {
+        inventoryUiController = FindObjectOfType<InventoryUiController>();
         parentImage.sprite = naoSelecionado;
         itemSelecionado = false;
         inventoryManager = FindObjectOfType<InventoryManager>();
@@ -65,6 +67,7 @@ public class UIItemDisplay : MonoBehaviour, IPointerClickHandler
     private void SelecionarItem()
     {
         //DeselecionarItem();
+        inventoryUiController.UpdateUI();
         parentImage.sprite = selecionado;
         itemSelecionado = true;
         inventoryManager.SelectItem(item);
