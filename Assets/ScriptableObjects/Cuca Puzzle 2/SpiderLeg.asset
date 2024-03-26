@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbf919aa8ae3e0a44aa554c7e88b037e, type: 3}
-  m_Name: HoneyPot
+  m_Name: SpiderLeg
   m_EditorClassIdentifier: 
-  Index: 0
-  itemName: honeyPot
-  sprite: {fileID: 21300000, guid: 0bab7ad787b2dbb4c89dbd64947561e3, type: 3}
+  Index: 1
+  itemName: SpiderLeg
+  sprite: {fileID: 21300000, guid: ae56a329c667da14aa813a1922008309, type: 3}
   puzzleItem: 1
   colisorTrigger: 1
-  quantidade: 1
+  quantidade: 0
   stackable: 0
