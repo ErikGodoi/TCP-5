@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbf919aa8ae3e0a44aa554c7e88b037e, type: 3}
-  m_Name: Triangle
+  m_Name: BatWing
   m_EditorClassIdentifier: 
-  Index: 2
-  itemName: Triangle
-  sprite: {fileID: 21300000, guid: 24b755a747cc7f5468122f7234cb73c6, type: 3}
+  Index: 0
+  itemName: BatWing
+  sprite: {fileID: 21300000, guid: c17f0b5ecb04e934faef6ea31040b7ed, type: 3}
   puzzleItem: 1
   colisorTrigger: 1
-  quantidade: 1
+  quantidade: 0
   stackable: 0
