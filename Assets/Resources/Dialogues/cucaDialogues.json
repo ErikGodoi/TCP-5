@@ -1,0 +1,61 @@
+{
+    "dialogueLines": [
+        {
+        "id": "Cuca_RockFamily_1",
+        "character": "Narrator",
+        "goTo": [
+
+        ],
+        "text": "Parecia haver um caminho à frente, mas estava obstruído por algumas rochas.",
+        "isEnd": false
+    },
+
+    {
+        "id": "Cuca_RockFamily_2",
+        "character": "Narrator",
+        "goTo": [
+
+        ],
+        "text": "Como poderia passar por ali?...",
+        "isEnd": true
+    },
+
+    {
+        "id": "Cuca_PlateInteraction",
+        "character" : "Narrator",
+        "goTo": [
+
+        ],
+        "text" : "Aquela placa misteriosa\ncom algumas letras faltando parecia\nser a solução dos meus problemas.",
+        "isEnd": false
+    },
+
+    {
+        "id": "Cuca_PlaceholderInteraction",
+        "character" : "Narrator",
+        "goTo": [
+
+        ],
+        "text" : "Placeholder Text",
+        "isEnd": false
+    },
+
+    {
+        "id": "Cuca_EventTest",
+        "character" : "Narrator",
+        "goTo": [
+
+        ],
+        "text" : "Event Test Text",
+        "isEnd": false
+    },
+
+    {
+        "id": "END_NODE",
+        "character": "None",
+        "text": "End of Dialogue",
+        "isEnd": true
+    }
+
+    ]
+}

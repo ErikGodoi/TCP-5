@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
+using Unity.VisualScripting.InputSystem;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
@@ -9,11 +12,16 @@ public class PlayerController : MonoBehaviour
     public LayerMask collisionLayer;
     public float rayLength;
     
-    public bool parado;
+    [SerializeField] private bool parado;
+
     //Input Actions
     private PlayerInput playerInput;
     private float horizontalMovement;
     private float verticalMovement;
+
+    //Dialogue
+    public bool nextPressed = false;
+    public UnityEvent pressedEvent;
     
     // Troca de Cena
     public GameManager manager;
@@ -38,6 +46,9 @@ public class PlayerController : MonoBehaviour
         pointClick = false;
         parado = false;
         manager = FindObjectOfType<GameManager>();
+
+        if (pressedEvent == null)
+                pressedEvent = new UnityEvent();
     }
     void Update()
     {
@@ -67,21 +78,27 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
-    void OnMove(InputValue value)
+    
+    /* void OnMove(InputValue value)
     {
         horizontalMovement = value.Get<Vector2>().x;
         //Debug.Log("Movimento Horizontal: " + horizontalMovement);
         verticalMovement = value.Get<Vector2>().y;
+    } */
+
+    public void SetMovementVector(InputAction.CallbackContext context)
+    {
+        horizontalMovement = context.ReadValue<Vector2>().x;
+        verticalMovement = context.ReadValue<Vector2>().y;
     }
 
-    void OnAction(InputValue value)
+    public void NextPressed(InputAction.CallbackContext context)
     {
-        if (value.isPressed)
-        {
-
-        }
-        //Debug.Log("ação pressionada");
+        if(context.started)
+            nextPressed = true;
+        
+        if(context.canceled)
+            nextPressed = false;
     }
 
     public void Move()
@@ -194,6 +211,29 @@ public class PlayerController : MonoBehaviour
             manager.ChangeRoom(exit.nextRoom);
 
             this.transform.position = exit.playerNewPos;
+        }
+    }
+
+    private void PlayerCanMove(bool stop)
+    {
+        if(stop.Equals(typeof(PlayerController)))
+        {
+
+        }
+        this.parado = stop;
+    }
+
+    public void ChangeActionMaps(string newActionMap)
+    {
+        playerInput.SwitchCurrentActionMap(newActionMap);
+        switch (newActionMap)
+        {
+            case "Player":
+                parado = false;
+                break;
+            case "DialogueMenu":
+                parado = true;
+                break;
         }
     }
     

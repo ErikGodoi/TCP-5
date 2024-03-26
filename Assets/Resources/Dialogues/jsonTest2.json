@@ -1,0 +1,35 @@
+{
+    "dialogueLines": [
+        {
+        "id": "TestDialogue",
+        "character": "Narrator",
+        "options": [
+            "ESCOLHA 1, hahaha!",
+            "ESCOLHA 2, bihihi!"
+        ],
+        "goTo": [
+            "OPTION_1",
+            "OPTION_2"
+        ],
+        "text": "This is an example text for Rosemback dialogue system.",
+        "isEnd": false
+    },
+
+    {
+        "id": "OPTION_1",
+        "character" : "Name2",
+        "text" : "You've choosed OPTION_1 muahaahahaha",
+        "isEnd": true
+    },
+
+    {
+        "id": "OPTION_2",
+        "character" : "Name2",
+        "text" : "You've choosed OPTION_2 hihhihihihihi",
+        "isEnd": true
+    }
+
+    ]
+
+   
+}

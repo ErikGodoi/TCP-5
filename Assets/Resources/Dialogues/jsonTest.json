@@ -1,0 +1,10 @@
+{
+    "dialogueLines": [
+        {
+            "character" : "Name",
+            "goTo" : "option1",
+            "text" : "aaaaaaa",
+            "isEnd": true
+        }
+    ]
+}
