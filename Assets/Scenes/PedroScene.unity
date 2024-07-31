@@ -2538,7 +2538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryManager: {fileID: 1970772779}
-  obstaculo: {fileID: 351074986}
+  recompensa: {fileID: 1469675882}
 --- !u!212 &1469675886
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -246,6 +246,10 @@ MonoBehaviour:
     m_Bits: 0
   rayLength: 0.7
   parado: 0
+  nextPressed: 0
+  pressedEvent:
+    m_PersistentCalls:
+      m_Calls: []
   manager: {fileID: 0}
   animacao: {fileID: 319416760}
   pointClick: 0
@@ -3525,6 +3529,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1538372621246049730, guid: bd857867c0bf6d14f9fa18edfe75e7c6, type: 3}
+      propertyPath: puzzleItem
+      value: 
+      objectReference: {fileID: 11400000, guid: 1cbcc7b838e2e7141ba058e6586901e4, type: 2}
     - target: {fileID: 5199013920873059656, guid: bd857867c0bf6d14f9fa18edfe75e7c6, type: 3}
       propertyPath: m_Name
       value: Mapas
@@ -3573,6 +3581,10 @@ PrefabInstance:
       propertyPath: inventoryManager
       value: 
       objectReference: {fileID: 1970772779}
+    - target: {fileID: 7480779177367506671, guid: bd857867c0bf6d14f9fa18edfe75e7c6, type: 3}
+      propertyPath: puzzleItem
+      value: 
+      objectReference: {fileID: 11400000, guid: 51257c2f8c7cc364c96c5e5f0ab45273, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
