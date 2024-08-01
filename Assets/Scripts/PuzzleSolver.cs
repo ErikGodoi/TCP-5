@@ -18,6 +18,16 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
     bool cucaPuzzle2Completo;
 
     int etapa;
+
+    [Header("Cuca_Puzzle_1 Mudar Sprite da placa")]
+    SpriteRenderer placa;
+    public Sprite placa1;
+    public Sprite placa2;
+    public Sprite placa3;
+    private void Start()
+    {
+        placa = gameObject.GetComponent<SpriteRenderer>();
+    }
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log(eventData.pointerClick.GetComponent<PuzzleSolver>());
@@ -27,15 +37,25 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
     }
     public void CucaPuzzle1(PointerEventData eventData)
     {
-        if (etapa <= 2 && inventoryManager.selectedItem.Index <= 2)
+        if (etapa == 0 && inventoryManager.selectedItem.itemName == "honeyPot")
         {
             inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
-            etapa++;
-            if (etapa == 3)
-            {
-                cucaPuzzle1Completo = true;
-                FimDoPuzzle();
-            }
+            etapa = 1;
+            placa.sprite = placa1;
+        }
+        if (etapa == 1 && inventoryManager.selectedItem.itemName == "branchU")
+        {
+            inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
+            etapa = 2;
+            placa.sprite = placa2;
+        }
+        if (etapa == 2 && inventoryManager.selectedItem.itemName == "babyBlock")
+        {
+            inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
+            etapa = 3;
+            placa.sprite = placa3;
+            cucaPuzzle1Completo = true;
+            FimDoPuzzle();
         }
     }
     public void CucaPuzzle2(PointerEventData eventData)

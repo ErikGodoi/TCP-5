@@ -114,39 +114,25 @@ public class PlayerController : MonoBehaviour
         if (inputY != 0f)
         {
             inputX = 0;
+            animacao.SetBool("Parado", false);
         }
         else if(inputX != 0f)
         {
             inputY = 0;
-        }
-        if (inputY > 0)
-        {
-            // Indo para cima
-            animacao.SetFloat("Vertical", 1f);
-            animacao.SetBool("Parado", false);
-        }
-        else if (inputY < 0)
-        {
-            // Indo para baixo
-            animacao.SetFloat("Vertical", -1f);
-            animacao.SetBool("Parado", false);
-        }
-        if (inputX > 0)
-        {
-            // Indo para a direita
-            animacao.SetFloat("Horizontal", 1f);
-            animacao.SetBool("Parado", false);
-        }
-        else if (inputX < 0)
-        {
-            // Indo para a esquerda
-            animacao.SetFloat("Horizontal", -1f);
             animacao.SetBool("Parado", false);
         }
         if (inputY == 0 && inputX == 0)
         {
             // Parado
             animacao.SetBool("Parado", true);
+        }
+        else if (Input.GetAxisRaw("Horizontal") != 0)
+        {
+            animacao.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
+        }
+        else if (Input.GetAxisRaw("Vertical") != 0)
+        {
+            animacao.SetFloat("Vertical", Input.GetAxisRaw("Vertical"));
         }
     }
     
