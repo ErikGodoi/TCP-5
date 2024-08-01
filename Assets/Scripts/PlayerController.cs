@@ -198,6 +198,11 @@ public class PlayerController : MonoBehaviour
 
             this.transform.position = exit.playerNewPos;
         }
+        if (collision.gameObject.name.Contains("exitTo_Cuca12"))
+        {
+            CucaChase chase = FindObjectOfType<CucaChase>();
+            chase.comecar = true;
+        }
     }
 
     private void PlayerCanMove(bool stop)
