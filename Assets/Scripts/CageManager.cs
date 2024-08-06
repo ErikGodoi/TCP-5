@@ -25,7 +25,7 @@ public class CageManager : MonoBehaviour
         state = CageState.Inactive;
 
         // Léo do futuro, por favor, conserte isso. Obrigado.
-        shadowScript = GetComponentInIParent<CageShadow>();
+        shadowScript = GetComponentInParent<CageShadow>();
         rb = GetComponent<Rigidbody2D>();
 
         UpdateCageState(state); // Inicializa o estado
@@ -33,7 +33,10 @@ public class CageManager : MonoBehaviour
 
     private void Update()
     {
-        HandleClick();
+        if(state == CageState.Active)
+        {
+            HandleClick();
+        }
     }
 
     public void UpdateCageState(CageState newState)
@@ -60,12 +63,24 @@ public class CageManager : MonoBehaviour
     private void HandleInactive()
     {
         cageObject.SetActive(false);
+        rb.gravityScale = 0;
+
+        if(shadowScript.playerCollided)
+        {
+            UpdateCageState(CageState.Active);
+        }
     }
 
     private void HandleActive()
     {
         cageObject.SetActive(true);
         rb.gravityScale = 1;
+
+        if(clickCount >= maxClicks)
+        {
+            clickCount = 0;
+            UpdateCageState(CageState.Destroyed);
+        }
     }
 
     private void HandleDestroyed()
@@ -75,17 +90,13 @@ public class CageManager : MonoBehaviour
         // Adicionar lógica adicional para quando a jaula é destruída, se necessário
     }
 
+    //Detecta os cliques do jogador
     private void HandleClick()
     {
         if (state == CageState.Active && Input.GetMouseButtonDown(0))
         {
             clickCount++;
             Debug.Log($"Jaula clicada {clickCount} vezes.");
-
-            if (clickCount >= maxClicks)
-            {
-                UpdateCageState(CageState.Destroyed);
-            }
         }
     }
 
