@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class CageManager : MonoBehaviour
 {
-    private Rigidbody2D rb;
     private CageShadow shadowScript;
 
     public GameObject cageObject;
@@ -12,6 +11,10 @@ public class CageManager : MonoBehaviour
 
     [SerializeField] private int clickCount = 0;
     [SerializeField] private int maxClicks = 5;
+
+    float objectY;
+
+    public float fallSpeed = 5f;
 
     public enum CageState
     {
@@ -22,11 +25,11 @@ public class CageManager : MonoBehaviour
 
     private void Start()
     {
+        objectY = transform.position.y;
         state = CageState.Inactive;
 
         // Léo do futuro, por favor, conserte isso. Obrigado.
         shadowScript = GetComponentInParent<CageShadow>();
-        rb = GetComponent<Rigidbody2D>();
 
         UpdateCageState(state); // Inicializa o estado
     }
@@ -37,6 +40,8 @@ public class CageManager : MonoBehaviour
         {
             HandleClick();
         }
+
+        UpdateCageState(state);
     }
 
     public void UpdateCageState(CageState newState)
@@ -63,28 +68,25 @@ public class CageManager : MonoBehaviour
     private void HandleInactive()
     {
         cageObject.SetActive(false);
-        rb.gravityScale = 0;
-
-        if(shadowScript.playerCollided)
-        {
-            UpdateCageState(CageState.Active);
-        }
     }
 
     private void HandleActive()
     {
         cageObject.SetActive(true);
-        rb.gravityScale = 1;
+
+        
+        Vector2 fall = new Vector2 (transform.position.x, objectY -3.44f);
+        transform.position = Vector2.MoveTowards(transform.position, fall, Time.deltaTime * fallSpeed);
 
         if(clickCount >= maxClicks)
         {
-            clickCount = 0;
-            UpdateCageState(CageState.Destroyed);
+            state = CageState.Destroyed;
         }
     }
 
     private void HandleDestroyed()
     {
+        clickCount = 0;
         cageObject.SetActive(false);
         Debug.Log("JAULA DESTRUÍDA");
         // Adicionar lógica adicional para quando a jaula é destruída, se necessário
@@ -97,14 +99,6 @@ public class CageManager : MonoBehaviour
         {
             clickCount++;
             Debug.Log($"Jaula clicada {clickCount} vezes.");
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Shadow"))
-        {
-            // Implementar comportamento quando a jaula colide com o objeto "Shadow"
         }
     }
 }

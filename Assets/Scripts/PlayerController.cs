@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
+using Unity.VisualScripting;
 using Unity.VisualScripting.InputSystem;
 using UnityEngine;
 using UnityEngine.Events;
@@ -185,6 +186,11 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerExit(collision);
+
+        if (collision.gameObject.CompareTag("Shadow"))
+        {
+            parado = true;
+        }
     }
 
     private void PlayerExit(Collider2D collision)
