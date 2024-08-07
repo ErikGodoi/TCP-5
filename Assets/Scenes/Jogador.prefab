@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 339036997979198812}
   - component: {fileID: 3142028227548798453}
   - component: {fileID: 4133504933957530516}
-  - component: {fileID: 3452071940767608158}
   m_Layer: 0
   m_Name: Jogador
   m_TagString: Player
@@ -188,6 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryManager: {fileID: 0}
   inventoryUi: {fileID: 0}
+  cucaPzzl2Itens: 0
 --- !u!114 &3142028227548798453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +214,7 @@ MonoBehaviour:
   animacao: {fileID: 282563456348657937}
   pointClick: 0
   speed: 5
+  towardShadowSpeed: 5
 --- !u!114 &4133504933957530516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,25 +325,3 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &3452071940767608158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3792264142232646830}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7607de7ba33ba624aa96a0c28fb60159, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  collisionLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  rayLength: 0.7
-  parado: 0
-  manager: {fileID: 0}
-  animacao: {fileID: 282563456348657937}
-  pointClick: 0
-  speed: 5

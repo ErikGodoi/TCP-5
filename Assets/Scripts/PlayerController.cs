@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask collisionLayer;
     public float rayLength;
     
-    [SerializeField] private bool parado;
+    public bool parado;
 
     //Input Actions
     private PlayerInput playerInput;
@@ -37,22 +37,28 @@ public class PlayerController : MonoBehaviour
     private Vector2 target;
     private Vector2 velocity = Vector2.zero;
 
+    // Mover em direção da sombra
+    public float towardShadowSpeed;
+    Vector3 sombraPos;
+    bool mTS;
+
     private void Awake() 
     {
         playerInput = GetComponent<PlayerInput>();
     }
     void Start()
     {
+        mTS = false;
         target = transform.position;
         pointClick = false;
         parado = false;
         manager = FindObjectOfType<GameManager>();
-
         if (pressedEvent == null)
                 pressedEvent = new UnityEvent();
     }
     void Update()
     {
+        moveToShadow();
         animacao.SetFloat("Vertical", 0f);
         animacao.SetFloat("Horizontal", 0f);
         animacao.SetBool("Parado", true);
@@ -79,35 +85,29 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    
-    /* void OnMove(InputValue value)
+    public IEnumerator JogadorPego(float tempo)
     {
-        horizontalMovement = value.Get<Vector2>().x;
-        //Debug.Log("Movimento Horizontal: " + horizontalMovement);
-        verticalMovement = value.Get<Vector2>().y;
-    } */
-
+        parado = true;
+        yield return new WaitForSeconds(tempo);
+        parado = false;
+    }
     public void SetMovementVector(InputAction.CallbackContext context)
     {
         horizontalMovement = context.ReadValue<Vector2>().x;
         verticalMovement = context.ReadValue<Vector2>().y;
     }
-
     public void NextPressed(InputAction.CallbackContext context)
     {
         if(context.started)
             nextPressed = true;
-        
         if(context.canceled)
             nextPressed = false;
     }
-
     public void Move()
     {
         float inputX = horizontalMovement;
         float inputY = verticalMovement;
         Vector2 movement = new Vector2(inputX, inputY);
-
         if (!parado)
         {
             MovePlayer(movement);
@@ -136,7 +136,6 @@ public class PlayerController : MonoBehaviour
             animacao.SetFloat("Vertical", Input.GetAxisRaw("Vertical"));
         }
     }
-    
     private void MovePlayer(Vector2 movement)
     {
         // Perform raycasts in both horizontal and vertical directions
@@ -154,7 +153,6 @@ public class PlayerController : MonoBehaviour
             transform.Translate(Vector2.up * movement.y * moveSpeed * Time.deltaTime);
         }
     }
-    
     private bool CheckMovement(Vector2 direction)
     {
         if (direction.y < 0)
@@ -182,17 +180,28 @@ public class PlayerController : MonoBehaviour
         // Check if there is a collider in the way
         //return hit.collider == null && hit.collider == null;
     }
-    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerExit(collision);
 
         if (collision.gameObject.CompareTag("Shadow"))
         {
-            parado = true;
+            sombraPos = new Vector3(collision.gameObject.transform.position.x, collision.gameObject.transform.position.y + 1f, 0);
+            mTS = true;
         }
     }
-
+    private void moveToShadow()
+    {
+        if (mTS)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, sombraPos, Time.deltaTime * towardShadowSpeed); 
+            parado = true;
+            if (transform.position == sombraPos)
+            {
+                mTS = false;
+            }
+        }
+    }
     private void PlayerExit(Collider2D collision)
     {
         if (collision.gameObject.name.Contains("exitTo"))
@@ -210,7 +219,6 @@ public class PlayerController : MonoBehaviour
             chase.comecar = true;
         }
     }
-
     private void PlayerCanMove(bool stop)
     {
         if(stop.Equals(typeof(PlayerController)))
@@ -219,7 +227,6 @@ public class PlayerController : MonoBehaviour
         }
         this.parado = stop;
     }
-
     public void ChangeActionMaps(string newActionMap)
     {
         playerInput.SwitchCurrentActionMap(newActionMap);
@@ -233,5 +240,4 @@ public class PlayerController : MonoBehaviour
                 break;
         }
     }
-    
 }

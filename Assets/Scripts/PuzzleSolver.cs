@@ -37,19 +37,23 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
     }
     public void CucaPuzzle1(PointerEventData eventData)
     {
+        if (inventoryManager.selectedItem.itemName == null)
+        {
+            return;
+        }
         if (etapa == 0 && inventoryManager.selectedItem.itemName == "honeyPot")
         {
             inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
             etapa = 1;
             placa.sprite = placa1;
         }
-        if (etapa == 1 && inventoryManager.selectedItem.itemName == "branchU")
+        else if (etapa == 1 && inventoryManager.selectedItem.itemName == "branchU")
         {
             inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
             etapa = 2;
             placa.sprite = placa2;
         }
-        if (etapa == 2 && inventoryManager.selectedItem.itemName == "babyBlock")
+        else if (etapa == 2 && inventoryManager.selectedItem.itemName == "babyBlock")
         {
             inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
             etapa = 3;
@@ -60,11 +64,11 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
     }
     public void CucaPuzzle2(PointerEventData eventData)
     {
-        if (etapa <= 3 && inventoryManager.selectedItem.Index <= 3)
+        if (etapa <= 4 && inventoryManager.selectedItem.Index <= 4)
         {
             inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
             etapa++;
-            if (etapa == 4)
+            if (etapa == 5)
             {
                 cucaPuzzle2Completo = true;
                 FimDoPuzzle();
@@ -83,7 +87,7 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
             // Colocar o que mais precisa ser feito quando o puzzle for completo;
 
             //Ativar Linha abaixo se algum obstaculo/recompensa precisa ser Ativado/Desativado quando o Puzzle 2 (Caldeirao) for completo.
-            //recompensa.SetActive(!recompensa.activeSelf);
+            recompensa.SetActive(!recompensa.activeSelf);
             etapa = 0;
         }
     }

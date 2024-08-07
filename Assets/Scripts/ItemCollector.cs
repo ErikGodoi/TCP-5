@@ -24,14 +24,17 @@ public class ItemCollector : MonoBehaviour
             inventoryUi.UpdateUI();
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.name.Contains("Poison")) cucaPzzl2Itens = 5;
 
-
-        if (collision.gameObject.name.Contains("batWing") || collision.gameObject.name.Contains("vultureFeather") || collision.gameObject.name.Contains("ounceTooth") || 
-            collision.gameObject.name.Contains("potionVial") || collision.gameObject.name.Contains("spiderLeg"))
+        if (collision.gameObject.name.Contains("Puzzle 2"))
         {
             cucaPzzl2Itens++;
             Debug.Log(cucaPzzl2Itens);
         }
-
+        if (collision.gameObject.name.Contains("Check") && cucaPzzl2Itens == 5)
+        {
+            collision.gameObject.SetActive(false);
+            cucaPzzl2Itens = 0;
+        }
     }
 }

@@ -7,11 +7,13 @@ public class CucaChase : MonoBehaviour
     public bool comecar;
     public AnimationCurve curva;
     public float duracao;
+    public GameObject cuca;
 
     void Update()
     {
         if (comecar)
         {
+            Instantiate(cuca, new Vector2(0, 50), Quaternion.identity);
             comecar = false;
             StartCoroutine(Shake());
         }

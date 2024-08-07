@@ -16,6 +16,8 @@ public class CageManager : MonoBehaviour
 
     public float fallSpeed = 5f;
 
+    public PlayerController player;
+
     public enum CageState
     {
         Inactive,
@@ -25,6 +27,7 @@ public class CageManager : MonoBehaviour
 
     private void Start()
     {
+        player = FindObjectOfType<PlayerController>();
         objectY = transform.position.y;
         state = CageState.Inactive;
 
@@ -87,6 +90,7 @@ public class CageManager : MonoBehaviour
     private void HandleDestroyed()
     {
         clickCount = 0;
+        player.parado = false;
         cageObject.SetActive(false);
         Debug.Log("JAULA DESTRUÍDA");
         // Adicionar lógica adicional para quando a jaula é destruída, se necessário
