@@ -6575,7 +6575,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   manager: {fileID: 1970772775}
-  animacao: {fileID: 1436701264}
   pointClick: 0
   speed: 5
   towardShadowSpeed: 0
@@ -7987,6 +7986,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 282563456348657937, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 12697f090353d504997642f95667fc8d, type: 2}
     - target: {fileID: 339036997979198812, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
       propertyPath: inventoryUi
       value: 
@@ -8050,7 +8053,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3792264142232646830, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 1818619081}
   m_SourcePrefab: {fileID: 100100000, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
 --- !u!1 &1672483364
 GameObject:
@@ -8908,6 +8914,23 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1 &1818619072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3792264142232646830, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
+  m_PrefabInstance: {fileID: 1661700048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1818619081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818619072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25623ee85269c740905da84c53bc038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1826549023
 GameObject:
   m_ObjectHideFlags: 0

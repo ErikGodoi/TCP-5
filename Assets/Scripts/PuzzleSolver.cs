@@ -16,6 +16,7 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
 
     bool cucaPuzzle1Completo;
     bool cucaPuzzle2Completo;
+    bool cucaCompleto;
 
     int etapa;
 
@@ -33,7 +34,6 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
         Debug.Log(eventData.pointerClick.GetComponent<PuzzleSolver>());
         if (!cucaPuzzle1Completo && name == "c_c_Plate") CucaPuzzle1(eventData);
         if (!cucaPuzzle2Completo && name == "Caldeirao") CucaPuzzle2(eventData);
-        //else if (branch || babyBlock) inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
     }
     public void CucaPuzzle1(PointerEventData eventData)
     {
@@ -75,6 +75,15 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
             }
         }
     }
+    public void Cuca(PointerEventData eventData)
+    {
+        if (inventoryManager.selectedItem.itemName == "poisonVial")
+        {
+            inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
+            cucaCompleto = true;
+            FimDoPuzzle();
+        }
+    }
     public void FimDoPuzzle()
     {
         if (cucaPuzzle1Completo)
@@ -84,11 +93,12 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
         }
         if (cucaPuzzle2Completo)
         {
-            // Colocar o que mais precisa ser feito quando o puzzle for completo;
-
-            //Ativar Linha abaixo se algum obstaculo/recompensa precisa ser Ativado/Desativado quando o Puzzle 2 (Caldeirao) for completo.
             recompensa.SetActive(!recompensa.activeSelf);
             etapa = 0;
+        }
+        if (cucaCompleto)
+        {
+            // Habilitar os itens cosméticos da cuca e ativar o portal do sapo
         }
     }
 }
