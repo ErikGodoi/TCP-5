@@ -99,10 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4915ca60988731f4ca708bbc269fcd46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 5
+  velocidade: 6
   tempoDaPEGADA: 3
-  tempoDeStun: 3
-  balangadaPorSegundo: 3
+  tempoDeStun: 1
+  balangadaPorSegundo: 5
 --- !u!61 &4148904834417099727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -162,6 +162,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryManager: {fileID: 0}
   recompensa: {fileID: 0}
+  cucaPuzzle2Completo: 0
+  etapa: 0
   placa1: {fileID: 0}
   placa2: {fileID: 0}
   placa3: {fileID: 0}
+  caldAni: {fileID: 0}
