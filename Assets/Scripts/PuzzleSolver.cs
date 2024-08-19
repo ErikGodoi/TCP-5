@@ -15,18 +15,22 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
     public GameObject recompensa;
 
     bool cucaPuzzle1Completo;
-    bool cucaPuzzle2Completo;
+    public bool cucaPuzzle2Completo;
 
-    int etapa;
+    public int etapa;
 
     [Header("Cuca_Puzzle_1 Mudar Sprite da placa")]
     SpriteRenderer placa;
     public Sprite placa1;
     public Sprite placa2;
     public Sprite placa3;
+
+    public CaldeiraoAnimacao caldAni;
+
     private void Start()
     {
         placa = gameObject.GetComponent<SpriteRenderer>();
+        caldAni = GetComponent<CaldeiraoAnimacao>();
     }
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -66,6 +70,8 @@ public class PuzzleSolver : MonoBehaviour, IPointerClickHandler
     {
         if (etapa <= 4 && inventoryManager.selectedItem.Index <= 4)
         {
+            caldAni.Cooking();
+
             inventoryManager.UseSelectedItem(eventData.pointerClick.GetComponent<PuzzleSolver>());
             etapa++;
             if (etapa == 5)
