@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8373026935340646937}
   - component: {fileID: 5753443414673204001}
+  - component: {fileID: -6997784568642075301}
   - component: {fileID: 1550440833482001434}
   - component: {fileID: 4148904834417099727}
   - component: {fileID: -4000428080797213593}
@@ -87,6 +88,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-6997784568642075301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4232073395499595122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a5e9386e69fe47408074f29a2414616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAmount: 10
+  rotationRepetitions: 5
+  finalRotation: 90
+  delayBeforeDisappearing: 2
 --- !u!114 &1550440833482001434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,7 +149,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.6031897}
@@ -161,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryManager: {fileID: 0}
-  recompensa: {fileID: 0}
+  recompensa: []
   cucaPuzzle2Completo: 0
   etapa: 0
   placa1: {fileID: 0}

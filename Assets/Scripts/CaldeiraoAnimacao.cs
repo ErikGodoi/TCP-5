@@ -5,7 +5,8 @@ using UnityEngine;
 public class CaldeiraoAnimacao : MonoBehaviour
 {
     Animator ani;
-    public PuzzleSolver solver;
+    PuzzleSolver solver;
+    public bool animar;
     void Start()
     {
         ani = GetComponent<Animator>();
@@ -14,13 +15,12 @@ public class CaldeiraoAnimacao : MonoBehaviour
 
     public void Cooking()
     {
-        if(solver.cucaPuzzle2Completo == false && solver.etapa > 0)
+        if(animar)
         {
-            ani.SetBool("anima", true);
+            ani.SetBool("Anima", true);
         }
-
         else {
-            ani.SetBool("anima", false);
+            ani.SetBool("Anima", false);
         }
         
     }
