@@ -7,6 +7,8 @@ public class InventoryManager : MonoBehaviour
     public InventoryUiController uiController;
     public PuzzleItens selectedItem {get; private set;}
 
+    public Backpack backpack;
+
     public void AddItem(PuzzleItens newItem)
     {
         if (newItem.stackable && items.Contains(newItem))
@@ -44,5 +46,9 @@ public class InventoryManager : MonoBehaviour
     public void UseSelectedItem(PuzzleSolver target)
     {
         UseItem(selectedItem, target);
+    }
+    public void CloseBackPack()
+    {
+        backpack.Botao();
     }
 }
