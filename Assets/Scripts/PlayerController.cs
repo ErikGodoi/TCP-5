@@ -27,9 +27,6 @@ public class PlayerController : MonoBehaviour
     // Troca de Cena
     public GameManager manager;
 
-    // Anima��o
-    public Animator animacao;
-
     // Point & Click
     public bool pointClick;
     public int speed;
@@ -59,9 +56,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         moveToShadow();
-        animacao.SetFloat("Vertical", 0f);
-        animacao.SetFloat("Horizontal", 0f);
-        animacao.SetBool("Parado", true);
         if (pointClick)
         {
             if (Input.GetMouseButtonDown(0))
@@ -111,29 +105,6 @@ public class PlayerController : MonoBehaviour
         if (!parado)
         {
             MovePlayer(movement);
-        }
-        if (inputY != 0f)
-        {
-            inputX = 0;
-            animacao.SetBool("Parado", false);
-        }
-        else if(inputX != 0f)
-        {
-            inputY = 0;
-            animacao.SetBool("Parado", false);
-        }
-        if (inputY == 0 && inputX == 0)
-        {
-            // Parado
-            animacao.SetBool("Parado", true);
-        }
-        else if (Input.GetAxisRaw("Horizontal") != 0)
-        {
-            animacao.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
-        }
-        else if (Input.GetAxisRaw("Vertical") != 0)
-        {
-            animacao.SetFloat("Vertical", Input.GetAxisRaw("Vertical"));
         }
     }
     private void MovePlayer(Vector2 movement)

@@ -11,6 +11,8 @@ public class ItemCollector : MonoBehaviour
 
     private void Start()
     {
+        inventoryManager = FindObjectOfType<InventoryManager>();
+        inventoryUi = FindObjectOfType<InventoryUiController>();
         inventoryManager.items.Clear();
         inventoryUi.UpdateUI();
     }
