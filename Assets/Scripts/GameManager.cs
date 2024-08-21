@@ -31,11 +31,7 @@ public class GameManager : MonoBehaviour
     {
         //Inicia a camera para a posição da sala
         UpdateCam(currentRoom);
-    }
-
-    private void Update()
-    {
-        
+        cam = FindAnyObjectByType<Camera>();
     }
 
     private void UpdateCam(string currentRoom)
@@ -50,6 +46,9 @@ public class GameManager : MonoBehaviour
         currentRoom = nextRoom;
         UpdateCam(nextRoom);
     }
-
+    public void NovaCam()
+    {
+        cam = FindAnyObjectByType<Camera>();
+    }
 
 }

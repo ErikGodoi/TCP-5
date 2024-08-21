@@ -11,7 +11,6 @@ public class Urutau : MonoBehaviour
 
     public bool pegarPresente;
     public Vector2 presentePos;
-    float distanciaDeParada = 0.2f;
     public bool IsFollowing => seguindo;
 
 
@@ -75,10 +74,6 @@ public class Urutau : MonoBehaviour
     }
     public void PegarPresente(Vector2 presente)
     {
-        //if (Vector2.Distance(transform.position, presente) <= distanciaDeParada)
-        //{
-        //    return; 
-        //}
         transform.position = Vector2.MoveTowards(transform.position, presente, Time.deltaTime * speed);
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         seguindo = false;

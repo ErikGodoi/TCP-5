@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake() 
     {
+        DontDestroyOnLoad(gameObject);
         playerInput = GetComponent<PlayerInput>();
     }
     void Start()
