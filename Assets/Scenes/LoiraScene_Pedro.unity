@@ -1148,6 +1148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223596653}
   - component: {fileID: 223596654}
+  - component: {fileID: 223596655}
   m_Layer: 0
   m_Name: Loira_Room7
   m_TagString: Untagged
@@ -1225,6 +1226,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &223596655
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223596652}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.671038, y: -1.2075958}
+  - {x: -6.5658684, y: -1.254961}
+  - {x: -6.537857, y: -4.3301067}
+  - {x: -2.641777, y: -4.321867}
+  - {x: -2.6102524, y: -6.0050793}
+  - {x: 3.3253403, y: -6.0082626}
+  - {x: 3.3761597, y: -4.417885}
+  - {x: 7.0680313, y: -4.385996}
+  - {x: 7.173538, y: 2.958126}
+  - {x: 3.441059, y: 2.9342422}
+  - {x: 3.3621254, y: 6.0053368}
+  - {x: -2.7848854, y: 6.036272}
+  - {x: -2.7507057, y: 2.922926}
+  - {x: -6.617832, y: 2.9212952}
+  - {x: -6.650791, y: 0.575716}
+  - {x: -9.792612, y: 0.568285}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &278734241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2323,6 +2379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 404434544}
   - component: {fileID: 404434545}
+  - component: {fileID: 404434546}
   m_Layer: 0
   m_Name: Loira_Room11
   m_TagString: Untagged
@@ -2400,6 +2457,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &404434546
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404434543}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -10.168283, y: -1.172081}
+  - {x: -6.5658684, y: -1.254961}
+  - {x: -6.537857, y: -4.3301067}
+  - {x: -2.641777, y: -4.321867}
+  - {x: -2.6102524, y: -6.0050793}
+  - {x: 3.3253403, y: -6.0082626}
+  - {x: 3.3761597, y: -4.417885}
+  - {x: 7.0680313, y: -4.385996}
+  - {x: 7.133316, y: -1.1027794}
+  - {x: 10.101179, y: -1.0992355}
+  - {x: 10.086906, y: 0.54896545}
+  - {x: 7.243931, y: 0.5830612}
+  - {x: 7.173538, y: 2.958126}
+  - {x: 3.334507, y: 2.969761}
+  - {x: 3.3621254, y: 6.0053368}
+  - {x: -2.7848854, y: 6.036272}
+  - {x: -2.7507057, y: 2.922926}
+  - {x: -6.617832, y: 2.9212952}
+  - {x: -6.650791, y: 0.575716}
+  - {x: -10.147787, y: 0.568285}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &433608033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2893,6 +3009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 505720147}
   - component: {fileID: 505720148}
+  - component: {fileID: 505720149}
   m_Layer: 0
   m_Name: Loira_Room1
   m_TagString: Untagged
@@ -2968,6 +3085,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &505720149
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505720146}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -8.09318, y: 5.335625}
+  - {x: -8.081182, y: -4.1661677}
+  - {x: -4.0400133, y: -4.175678}
+  - {x: -4.0724483, y: -5.4104795}
+  - {x: 4.126449, y: -5.376093}
+  - {x: 4.133425, y: -4.13351}
+  - {x: 8.136623, y: -4.2194476}
+  - {x: 8.142586, y: 5.434431}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &518576919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3659,6 +3823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 619263633}
   - component: {fileID: 619263634}
+  - component: {fileID: 619263635}
   m_Layer: 0
   m_Name: Loira_Room4
   m_TagString: Untagged
@@ -3738,6 +3903,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &619263635
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619263632}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.848623, y: -2.3796806}
+  - {x: -8.038887, y: -2.3808317}
+  - {x: -8.002285, y: -4.5939956}
+  - {x: -1.0330048, y: -4.631415}
+  - {x: -1.1049805, y: -5.6328154}
+  - {x: 1.3812561, y: -5.616284}
+  - {x: 1.3809967, y: -4.5463333}
+  - {x: 8.049835, y: -4.6142893}
+  - {x: 8.10133, y: 2.8466673}
+  - {x: -8.138294, y: 2.9024944}
+  - {x: -8.190121, y: -0.562644}
+  - {x: -10.076746, y: -0.53276443}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &644959088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,6 +4057,8 @@ GameObject:
   m_Component:
   - component: {fileID: 656792032}
   - component: {fileID: 656792033}
+  - component: {fileID: 656792035}
+  - component: {fileID: 656792034}
   m_Layer: 0
   m_Name: Loira_Room6
   m_TagString: Untagged
@@ -3917,6 +4135,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &656792034
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656792031}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 3.257372, y: 5.718334}
+  - {x: 3.2061844, y: 3.2399416}
+  - {x: 7.456974, y: 3.2196016}
+  - {x: 7.5153046, y: -0.3339405}
+  - {x: 9.6, y: -0.31965828}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &656792035
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656792031}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.7451038, y: 5.8248873}
+  - {x: -2.7586937, y: 3.1901913}
+  - {x: -7.137146, y: 3.2010593}
+  - {x: -7.1732254, y: -2.3752584}
+  - {x: 9.813108, y: -2.3796806}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &684368638
 GameObject:
   m_ObjectHideFlags: 0
@@ -4904,6 +5210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863999850}
   - component: {fileID: 863999851}
+  - component: {fileID: 863999852}
   m_Layer: 0
   m_Name: Loira_Room13
   m_TagString: Untagged
@@ -4979,6 +5286,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &863999852
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863999849}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -10.239317, y: -2.4151993}
+  - {x: -8.003853, y: -2.4151955}
+  - {x: -7.9550133, y: -4.2332077}
+  - {x: 8.146547, y: -4.281597}
+  - {x: 8.1148205, y: 2.9715729}
+  - {x: -8.181448, y: 2.983059}
+  - {x: -8.122683, y: -0.46559525}
+  - {x: -10.467447, y: -0.4972496}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &870865658
 GameObject:
   m_ObjectHideFlags: 0
@@ -5073,6 +5427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872167460}
   - component: {fileID: 872167461}
+  - component: {fileID: 872167462}
   m_Layer: 0
   m_Name: Loira_Room16
   m_TagString: Untagged
@@ -5148,6 +5503,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &872167462
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872167459}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -7.4893265, y: 4.0209827}
+  - {x: -7.5078993, y: -3.7797909}
+  - {x: 8.368031, y: -3.8172932}
+  - {x: 8.380215, y: 3.9902973}
+  - {x: -8.325779, y: 3.986185}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &885953492
 GameObject:
   m_ObjectHideFlags: 0
@@ -5251,6 +5650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 899231816}
   - component: {fileID: 899231817}
+  - component: {fileID: 899231818}
   m_Layer: 0
   m_Name: Loira_Room15
   m_TagString: Untagged
@@ -5327,6 +5727,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &899231818
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899231815}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.1113033, y: 5.5407476}
+  - {x: -1.0695381, y: 2.912458}
+  - {x: -8.183754, y: 2.841563}
+  - {x: -8.175781, y: -0.6626441}
+  - {x: -9.616695, y: -0.64073163}
+  - {x: -9.610382, y: -2.6401792}
+  - {x: -8.102024, y: -2.6993384}
+  - {x: -8.084923, y: -4.60271}
+  - {x: 8.065044, y: -4.606605}
+  - {x: 8.081444, y: 5.3638864}
+  - {x: 1.3512611, y: 5.3706713}
+  - {x: 1.4309521, y: 2.166574}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &908763446
 GameObject:
   m_ObjectHideFlags: 0
@@ -5951,7 +6402,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000019073486, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5962,7 +6413,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7545357, y: 2.64}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1025659862
 SpriteRenderer:
@@ -6004,7 +6455,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 89516b10d0445ea418994000981ca02d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6026,6 +6477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1036041786}
   - component: {fileID: 1036041787}
+  - component: {fileID: 1036041788}
   m_Layer: 0
   m_Name: Loira_Room9
   m_TagString: Untagged
@@ -6103,6 +6555,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1036041788
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036041785}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.671038, y: -1.2075958}
+  - {x: -6.5658684, y: -1.254961}
+  - {x: -6.537857, y: -4.3301067}
+  - {x: -2.641777, y: -4.321867}
+  - {x: -2.6102524, y: -6.0050793}
+  - {x: 3.3253403, y: -6.0082626}
+  - {x: 3.3761597, y: -4.417885}
+  - {x: 7.0680313, y: -4.385996}
+  - {x: 7.173538, y: 2.958126}
+  - {x: 3.441059, y: 2.9342422}
+  - {x: 3.3621254, y: 6.0053368}
+  - {x: -2.7848854, y: 6.036272}
+  - {x: -2.7507057, y: 2.922926}
+  - {x: -6.617832, y: 2.9212952}
+  - {x: -6.650791, y: 0.575716}
+  - {x: -9.792612, y: 0.568285}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1044567653
 GameObject:
   m_ObjectHideFlags: 0
@@ -6393,6 +6900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1077218162}
   - component: {fileID: 1077218163}
+  - component: {fileID: 1077218164}
   m_Layer: 0
   m_Name: Loira_Room8
   m_TagString: Untagged
@@ -6468,6 +6976,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1077218164
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077218161}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 10.076754, y: 0.6748371}
+  - {x: 7.1992035, y: 0.671999}
+  - {x: 7.1448746, y: 2.9853}
+  - {x: -8.098312, y: 3.0037575}
+  - {x: -8.121414, y: -4.36244}
+  - {x: 7.1082993, y: -4.334593}
+  - {x: 7.2158737, y: -1.1010437}
+  - {x: 10.239317, y: -1.1365643}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1117687698
 GameObject:
   m_ObjectHideFlags: 0
@@ -6786,7 +7341,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000019073486, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6797,7 +7352,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7545357, y: 2.64}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1168515356
 SpriteRenderer:
@@ -6839,7 +7394,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: f591988509fbb6546b4f1c45c361cc7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6861,6 +7416,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1184930394}
   - component: {fileID: 1184930395}
+  - component: {fileID: 1184930397}
+  - component: {fileID: 1184930396}
   m_Layer: 0
   m_Name: Loira_Room2
   m_TagString: Untagged
@@ -6943,6 +7500,104 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1184930396
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184930393}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.6, y: -0.43233013}
+  - {x: -8.021104, y: -0.40144825}
+  - {x: -7.9258194, y: 5.178274}
+  - {x: -2.1384454, y: 5.128331}
+  - {x: -2.1020715, y: 2.4455757}
+  - {x: 3.9776454, y: 2.4293747}
+  - {x: 3.9505053, y: 5.210599}
+  - {x: 5.8924613, y: 5.2153263}
+  - {x: 5.8777704, y: 2.46838}
+  - {x: 8.008844, y: 2.4147062}
+  - {x: 8.001991, y: 2.4379807}
+  - {x: 7.991608, y: -0.43779278}
+  - {x: 8.510277, y: -0.42576885}
+  - {x: 9.538239, y: -0.4014492}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1184930397
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184930393}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.661762, y: -2.5013351}
+  - {x: -7.9415274, y: -2.4541054}
+  - {x: -7.8977222, y: -5.385797}
+  - {x: 7.9540324, y: -5.381511}
+  - {x: 7.979354, y: -2.488019}
+  - {x: 9.6, y: -2.4395742}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1185080133
 GameObject:
   m_ObjectHideFlags: 0
@@ -7008,7 +7663,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000019073486, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7019,7 +7674,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7545357, y: 2.64}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1185080136
 SpriteRenderer:
@@ -7061,7 +7716,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 86f5f0624315d3746b03b2931e58be34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8683,6 +9338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328336746}
   - component: {fileID: 1328336747}
+  - component: {fileID: 1328336748}
   m_Layer: 0
   m_Name: Loira_Room14
   m_TagString: Untagged
@@ -8758,6 +9414,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1328336748
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328336745}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -7.4893265, y: 4.0209827}
+  - {x: -7.5078993, y: -3.7797909}
+  - {x: 8.368031, y: -3.8172932}
+  - {x: 8.380215, y: 3.9902973}
+  - {x: -8.325779, y: 3.986185}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1336114365
 GameObject:
   m_ObjectHideFlags: 0
@@ -9156,11 +9856,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3905211269326804201, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3905211269326804201, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3905211269326804201, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9628,6 +10328,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1441001530}
   - component: {fileID: 1441001531}
+  - component: {fileID: 1441001533}
+  - component: {fileID: 1441001532}
   m_Layer: 0
   m_Name: Loira_Room3
   m_TagString: Untagged
@@ -9704,6 +10406,104 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1441001532
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441001529}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.6, y: -0.5603552}
+  - {x: -8.181135, y: -0.6254921}
+  - {x: -8.053844, y: 2.9058313}
+  - {x: -2.2024598, y: 2.9199018}
+  - {x: -0.94984794, y: 2.9256687}
+  - {x: 3.785606, y: 2.9094677}
+  - {x: 4.7186556, y: 2.8741446}
+  - {x: 5.8924613, y: 2.878872}
+  - {x: 6.6459208, y: 2.8844604}
+  - {x: 7.976839, y: 2.8307867}
+  - {x: 8.001989, y: 1.637824}
+  - {x: 7.991608, y: -0.56581783}
+  - {x: 8.542284, y: -0.5858002}
+  - {x: 9.730276, y: -0.5934868}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1441001533
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441001529}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.6937685, y: -2.5013351}
+  - {x: -7.9415274, y: -2.4541054}
+  - {x: -7.9748526, y: -4.5373683}
+  - {x: 7.9860396, y: -4.549349}
+  - {x: 7.979354, y: -2.488019}
+  - {x: 9.6, y: -2.4395742}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1442995903
 GameObject:
   m_ObjectHideFlags: 0
@@ -9807,6 +10607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447328105}
   - component: {fileID: 1447328106}
+  - component: {fileID: 1447328107}
   m_Layer: 0
   m_Name: Loira_Room10
   m_TagString: Untagged
@@ -9882,6 +10683,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1447328107
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447328104}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 10.076754, y: 0.6748371}
+  - {x: 7.1992035, y: 0.671999}
+  - {x: 7.1448746, y: 2.9853}
+  - {x: -8.098312, y: 3.0037575}
+  - {x: -8.121414, y: -4.36244}
+  - {x: 7.1082993, y: -4.334593}
+  - {x: 7.2158737, y: -1.1010437}
+  - {x: 10.239317, y: -1.1365643}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1476378357
 GameObject:
   m_ObjectHideFlags: 0
@@ -11282,7 +12130,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000019073486, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11293,7 +12141,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7545357, y: 2.64}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1731048826
 SpriteRenderer:
@@ -11335,7 +12183,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c8f2c66db46840b48bfe239630f8bc32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11398,6 +12246,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1786684599}
   - component: {fileID: 1786684600}
+  - component: {fileID: 1786684602}
+  - component: {fileID: 1786684601}
   m_Layer: 0
   m_Name: Loira_Room5
   m_TagString: Untagged
@@ -11474,6 +12324,104 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1786684601
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786684598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.6, y: -0.5603552}
+  - {x: -8.181135, y: -0.6254921}
+  - {x: -8.053844, y: 2.9058313}
+  - {x: -2.2024598, y: 2.9199018}
+  - {x: -0.94984794, y: 2.9256687}
+  - {x: 3.785606, y: 2.9094677}
+  - {x: 4.7186556, y: 2.8741446}
+  - {x: 5.8924613, y: 2.878872}
+  - {x: 6.6459208, y: 2.8844604}
+  - {x: 8.047874, y: 2.8663044}
+  - {x: 8.001989, y: 1.637824}
+  - {x: 7.991608, y: -0.56581783}
+  - {x: 8.542284, y: -0.5858002}
+  - {x: 9.730276, y: -0.5934868}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &1786684602
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786684598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -9.6937685, y: -2.5013351}
+  - {x: -7.9415274, y: -2.4541054}
+  - {x: -7.9748526, y: -4.5373683}
+  - {x: 7.9860396, y: -4.549349}
+  - {x: 7.979354, y: -2.488019}
+  - {x: 9.6, y: -2.4395742}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1790544206
 GameObject:
   m_ObjectHideFlags: 0
@@ -12314,6 +13262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815478213}
   - component: {fileID: 1815478214}
+  - component: {fileID: 1815478215}
   m_Layer: 0
   m_Name: Loira_Room12
   m_TagString: Untagged
@@ -12394,6 +13343,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1815478215
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815478212}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 10.076754, y: 0.6748371}
+  - {x: 7.1992035, y: 0.671999}
+  - {x: 7.1448746, y: 2.9853}
+  - {x: -8.098312, y: 3.0037575}
+  - {x: -8.121414, y: -4.36244}
+  - {x: 7.1082993, y: -4.334593}
+  - {x: 7.2158737, y: -1.1010437}
+  - {x: 10.239317, y: -1.1365643}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1826549023
 GameObject:
   m_ObjectHideFlags: 0
@@ -12738,7 +13734,7 @@ GameObject:
   - component: {fileID: 1915963452}
   - component: {fileID: 1915963451}
   m_Layer: 0
-  m_Name: Porta_aberta_2
+  m_Name: Porta_Banheiro_Mockup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
