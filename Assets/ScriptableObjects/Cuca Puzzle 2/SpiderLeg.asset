@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Index: 1
   itemName: SpiderLeg
-  sprite: {fileID: 21300000, guid: ae56a329c667da14aa813a1922008309, type: 3}
+  sprite: {fileID: 21300000, guid: c5fe91bbb95b93b469a50b27fcf7091e, type: 3}
   puzzleItem: 1
   colisorTrigger: 1
   quantidade: 0

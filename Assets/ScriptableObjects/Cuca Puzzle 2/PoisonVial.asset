@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Index: 5
   itemName: poisonVial
-  sprite: {fileID: 21300000, guid: cc1f3ecc99d16b849894c15360600f1f, type: 3}
+  sprite: {fileID: 21300000, guid: 6540a5a167302fb43a42e15c19e8a72d, type: 3}
   puzzleItem: 1
   colisorTrigger: 1
   quantidade: 0

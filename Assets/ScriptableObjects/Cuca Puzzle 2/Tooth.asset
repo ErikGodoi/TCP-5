@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Index: 2
   itemName: Tooth
-  sprite: {fileID: 21300000, guid: 297d9be161685634cb81f5bfe88efcfb, type: 3}
+  sprite: {fileID: 21300000, guid: 2d1e6db5284401b4ba85c2a8cc05cc37, type: 3}
   puzzleItem: 1
   colisorTrigger: 1
   quantidade: 0

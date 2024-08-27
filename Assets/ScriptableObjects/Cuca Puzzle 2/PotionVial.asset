@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Index: 4
   itemName: PotionVial
-  sprite: {fileID: 21300000, guid: cc1f3ecc99d16b849894c15360600f1f, type: 3}
+  sprite: {fileID: 21300000, guid: 0cc557aabd6bcc640bf6287abd488db9, type: 3}
   puzzleItem: 1
   colisorTrigger: 1
   quantidade: 0
