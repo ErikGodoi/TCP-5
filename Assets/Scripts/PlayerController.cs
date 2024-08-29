@@ -26,6 +26,8 @@ public class PlayerController : MonoBehaviour
     
     // Troca de Cena
     public GameManager manager;
+    [SerializeField] Animator transitionCtrl;
+    [SerializeField] float transitionTime;
 
     // Point & Click
     public bool pointClick;
@@ -178,12 +180,17 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.name.Contains("exitTo"))
         {
-            //parado = true;
+            if(transitionCtrl != null)
+            {
+                StartCoroutine(Transition(collision, transitionTime));
+            }
+            else
+            {
+                Exit exit = collision.gameObject.GetComponent<Exit>();
+                manager.ChangeRoom(exit.nextRoom);
+                this.transform.position = exit.playerNewPos;
+            }
             
-            Exit exit = collision.gameObject.GetComponent<Exit>();
-            manager.ChangeRoom(exit.nextRoom);
-
-            this.transform.position = exit.playerNewPos;
         }
         if (collision.gameObject.name.Contains("exitTo_Cuca12"))
         {
@@ -199,6 +206,7 @@ public class PlayerController : MonoBehaviour
         }
         this.parado = stop;
     }
+
     public void ChangeActionMaps(string newActionMap)
     {
         playerInput.SwitchCurrentActionMap(newActionMap);
@@ -212,4 +220,22 @@ public class PlayerController : MonoBehaviour
                 break;
         }
     }
+
+    IEnumerator Transition(Collider2D collision, float outTime)
+    {
+        parado = true;
+        transitionCtrl.SetTrigger("Start"); //start anim
+
+        //wait for it to finish
+        yield return new WaitForSeconds(outTime);
+        parado = false;
+
+        //load it normally (for camera changes)
+        Exit exit = collision.gameObject.GetComponent<Exit>();
+        manager.ChangeRoom(exit.nextRoom);
+        this.transform.position = exit.playerNewPos;
+        
+        transitionCtrl.SetTrigger("End"); //and end it
+    }
+    
 }
