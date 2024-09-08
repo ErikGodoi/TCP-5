@@ -1712,6 +1712,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sapoMochila: {fileID: 1755766085}
   nevoa: {fileID: 508711711}
+  nevoa2: {fileID: 1622988241}
+  nevoa3: {fileID: 2093293231}
 --- !u!61 &330042157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5017,7 +5019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57abe5eb525cf5245ab6d4c7a958bc88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SampleScene
+  sceneName: LoiraScene_Pedro
   nomeDaNovaSala: Loira_Room1
   novaPos: {x: 0, y: -3.96}
 --- !u!1001 &1088234154
