@@ -4480,9 +4480,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57abe5eb525cf5245ab6d4c7a958bc88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SampleScene
-  nomeDaNovaSala: Cuca_Room1
-  novaPos: {x: -29, y: -12}
+  sceneName: Matinta
+  nomeDaNovaSala: Matinta_Room1
+  novaPos: {x: -8.54, y: 0}
 --- !u!1 &920627657
 GameObject:
   m_ObjectHideFlags: 0
