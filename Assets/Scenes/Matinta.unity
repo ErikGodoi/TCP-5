@@ -1552,6 +1552,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Urutau Object
       objectReference: {fileID: 0}
+    - target: {fileID: 6644198129574922837, guid: 5652a1adc9fadab42a5e1f2c59570113, type: 3}
+      propertyPath: presentePos.x
+      value: 2.919804
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644198129574922837, guid: 5652a1adc9fadab42a5e1f2c59570113, type: 3}
+      propertyPath: presentePos.y
+      value: 1.185603
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
