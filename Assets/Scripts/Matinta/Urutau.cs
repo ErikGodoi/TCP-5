@@ -57,7 +57,7 @@ public class Urutau : MonoBehaviour
                 Vector3 direcao = jogador.position - transform.position;
                 direcao = direcao.normalized;
 
-                rb.velocity = direcao * speed * Time.deltaTime;
+                rb.velocity = direcao * speed * 2 * Time.deltaTime;
 
                 keepKoing = new Vector3(jogador.position.x + Random.Range(-1, 1f), jogador.position.y + Random.Range(-1, 1f), 0) - transform.position;
                 keepKoing = keepKoing.normalized;

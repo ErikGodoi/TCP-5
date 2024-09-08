@@ -16,7 +16,7 @@ public class CageShadow : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Player" || collision.gameObject.tag == "Urutau")
         {
             Debug.Log("JOGADOR COLIDIU COM A SOMBRA");
             playerCollided = true;
