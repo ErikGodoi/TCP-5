@@ -57,15 +57,6 @@ public class Cuca_Logic : MonoBehaviour
             forro = true;
         }
     }
-    //private void OnTriggerEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        StartCoroutine(jogador.JogadorPego(tempoDaPEGADA));
-    //        stun = tempoDaPEGADA + tempoDeStun;
-    //        forro = true;
-    //    }
-    //}
     IEnumerator Balanca()
     {
         float timeElapsed = 0f;
