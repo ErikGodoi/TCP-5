@@ -35,6 +35,8 @@ public class SceneChanger : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         canvas.TrocarCena();
+        gm.DesativarTrocaDeCena();
+        gm.PortalDeVolta();
         gm.NovaCam();
         gm.ChangeRoom(nomeDaNovaSala);
         Destroy(gameObject);
