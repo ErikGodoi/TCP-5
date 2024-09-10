@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class PresenteUrutau : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public int urutauReq;
+
+    public PlayerUrutau playerUrutau;
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        PlayerUrutau player = collision.gameObject.GetComponent<PlayerUrutau>();
+
+        if(player != null && player.urutauSeguindo >= urutauReq)
+        {
+            Debug.Log("Presente consumido com sucesso!");
+        }
+        else
+        {
+            Debug.LogError("Não tem urutaus seguindo o suficiente");
+        }
     }
 }

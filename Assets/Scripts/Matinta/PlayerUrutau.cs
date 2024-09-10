@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerUrutau : MonoBehaviour
 {
-    int urutauSeguindo;
+    public int urutauSeguindo;
     public void AddUrutau()
     {
         urutauSeguindo++;
