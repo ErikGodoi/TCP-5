@@ -1036,8 +1036,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f72b3f1aecec6874bb968f90d32f9f0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  urutauReq: 0
-  playerUrutau: {fileID: 0}
+  urutauReq: 5
+  playerUrutau: {fileID: 1244232394541368536, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
 --- !u!1 &311954720
 GameObject:
   m_ObjectHideFlags: 0

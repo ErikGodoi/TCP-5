@@ -16,10 +16,12 @@ public class PresenteUrutau : MonoBehaviour
         if(player != null && player.urutauSeguindo >= urutauReq)
         {
             Debug.Log("Presente consumido com sucesso!");
+
+            this.gameObject.SetActive(false);
         }
         else
         {
-            Debug.LogError("Não tem urutaus seguindo o suficiente");
+            Debug.Log("Não tem urutaus seguindo o suficiente");
         }
     }
 }
