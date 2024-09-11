@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]GameObject prefabPlayer;
     bool instPlayer;
+
+    [SerializeField] GameObject[] nevoa;
     void Awake()
     {
         if (instance == null)
@@ -47,7 +49,8 @@ public class GameManager : MonoBehaviour
     }
     void CriarJogador()
     {
-        Instantiate(prefabPlayer, prefabPlayer.transform.position, Quaternion.identity);
+        Vector3 posicaoInicial = new Vector3(0f, 10.46f, 0f);
+        Instantiate(prefabPlayer, posicaoInicial, Quaternion.identity);
     }
     private void UpdateCam(string currentRoom)
     {

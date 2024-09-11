@@ -1250,7 +1250,7 @@ Transform:
   m_GameObject: {fileID: 352749567}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.7, y: -1.24, z: 0}
+  m_LocalPosition: {x: 9.7, y: -0.03, z: 0}
   m_LocalScale: {x: 1, y: 0.19999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1268,9 +1268,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403af9b1f6ddb434c8d13e0cf2ff146a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisRoom: Centro_Room3
-  nextRoom: Centro_Room1
-  playerNewPos: {x: -8, y: -14, z: 0}
+  thisRoom: Centro_Room4
+  nextRoom: Centro_Room2
+  playerNewPos: {x: -8, y: -12.71, z: 0}
 --- !u!61 &352749570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1469,7 +1469,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 90f0f44398cf83d4c99be32cd6642397, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1495,7 +1495,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 445311660}
-  - {fileID: 760686755}
+  - {fileID: 1605223632}
   m_Father: {fileID: 598215103}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &373325405
@@ -1533,7 +1533,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.9588923, y: -5.393429}
+  - {x: 3.9628782, y: -5.4170804}
+  - {x: -3.9465473, y: -5.446288}
   - {x: -3.9202952, y: 0.22937417}
   - {x: -1.1082109, y: 0.22528076}
   - {x: -1.0691313, y: 2.9708567}
@@ -1567,7 +1568,7 @@ GameObject:
   - component: {fileID: 445311660}
   - component: {fileID: 445311659}
   - component: {fileID: 445311658}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: exitTo_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1724,7 +1725,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: a57f1be67ef9c994a907c8c12276b0aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2fbd4732cfd2a1d4fa9419c762c2b18f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1770,40 +1771,18 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.3292923, y: 5.4837837}
-  - {x: -5.868123, y: 5.445568}
-  - {x: -5.8777175, y: 3.264845}
-  - {x: -6.5930467, y: 1.9884453}
-  - {x: -6.488406, y: 0.42806244}
-  - {x: -6.1812463, y: -0.40709114}
-  - {x: -5.9141164, y: -0.61227417}
-  - {x: -5.730218, y: -1.035389}
-  - {x: -5.59007, y: -1.3499107}
-  - {x: -5.5805926, y: -1.5363789}
-  - {x: -5.5709934, y: -1.6376762}
-  - {x: -5.4291115, y: -2.357298}
-  - {x: -5.133302, y: -3.2648315}
-  - {x: -4.7895007, y: -4.5370655}
-  - {x: -4.6955347, y: -5.4446487}
-  - {x: 4.3789577, y: -5.5200443}
-  - {x: 4.4424453, y: -4.8521404}
-  - {x: 4.118676, y: -4.158577}
-  - {x: 5.0364633, y: -3.2265244}
-  - {x: 4.5577474, y: -3.0336437}
-  - {x: 4.927952, y: -1.5761547}
-  - {x: 4.9492326, y: -1.1469021}
-  - {x: 6.126746, y: -0.7750397}
-  - {x: 6.7547917, y: -1.3878536}
-  - {x: 6.62157, y: -0.85652924}
-  - {x: 6.5181494, y: -0.32605743}
-  - {x: 6.4375706, y: 0.41306877}
-  - {x: 6.8632565, y: 0.8801384}
-  - {x: 6.8671856, y: 1.5519524}
-  - {x: 5.9146676, y: 3.0633297}
-  - {x: 5.9170403, y: 3.722641}
-  - {x: 5.93319, y: 5.4055576}
-  - {x: 4.0899606, y: 5.4379025}
-  - {x: 3.9762025, y: 5.40959}
+  - {x: -0.07725692, y: -5.432308}
+  - {x: -1.2632018, y: -5.446417}
+  - {x: -4.822675, y: -5.488762}
+  - {x: -5.0741935, y: -3.0686855}
+  - {x: -6.228832, y: 0.2512436}
+  - {x: -5.793132, y: 5.4040146}
+  - {x: 4.1775656, y: 5.4351826}
+  - {x: 5.268389, y: 5.4196606}
+  - {x: 6.892084, y: 0.60227776}
+  - {x: 5.68694, y: -1.7688599}
+  - {x: 5.044729, y: -5.3921776}
+  - {x: -0.007253647, y: -5.395733}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1914,7 +1893,7 @@ GameObject:
   - component: {fileID: 498046929}
   - component: {fileID: 498046931}
   - component: {fileID: 498046930}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: exitTo_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2468,105 +2447,12 @@ Transform:
   m_GameObject: {fileID: 745243168}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40.557785, y: -18.134968, z: -0.013628211}
+  m_LocalPosition: {x: -40.87, y: -17.37, z: -0.013628211}
   m_LocalScale: {x: 0.8785, y: 0.8785, z: 0.8785}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1244320830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &760686754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 760686755}
-  - component: {fileID: 760686757}
-  - component: {fileID: 760686756}
-  m_Layer: 0
-  m_Name: exitTo_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &760686755
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760686754}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1500001, y: -5.71, z: 0}
-  m_LocalScale: {x: 1, y: 0.19999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 373325404}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &760686756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760686754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 403af9b1f6ddb434c8d13e0cf2ff146a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thisRoom: Centro_Room1
-  nextRoom: Centro_Room2
-  playerNewPos: {x: 0.1104374, y: -8.683956, z: 0}
---- !u!61 &760686757
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760686754}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.24934721, y: 2.0086346}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.32563, y: 1.642787}
-  m_EdgeRadius: 0
 --- !u!1 &762012379
 GameObject:
   m_ObjectHideFlags: 0
@@ -2579,7 +2465,7 @@ GameObject:
   - component: {fileID: 762012381}
   - component: {fileID: 762012382}
   m_Layer: 0
-  m_Name: Centro_Room 2
+  m_Name: Centro_Room2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2899,8 +2785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403af9b1f6ddb434c8d13e0cf2ff146a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisRoom: Centro_Room3
-  nextRoom: Centro_Room2
+  thisRoom: Centro_Room2
+  nextRoom: Centro_Room3
   playerNewPos: {x: 0.1104374, y: -20.75, z: 0}
 --- !u!61 &893949527
 BoxCollider2D:
@@ -2945,7 +2831,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.8936863, y: 1.642787}
+  m_Size: {x: 12.215319, y: 1.642787}
   m_EdgeRadius: 0
 --- !u!1 &910351256
 GameObject:
@@ -3215,9 +3101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403af9b1f6ddb434c8d13e0cf2ff146a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisRoom: Centro_Room1
-  nextRoom: Centro_Room3
-  playerNewPos: {x: -12.3, y: -14, z: 0}
+  thisRoom: Centro_Room2
+  nextRoom: Centro_Room4
+  playerNewPos: {x: -12.3, y: -12.71, z: 0}
 --- !u!61 &943505809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3308,9 +3194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403af9b1f6ddb434c8d13e0cf2ff146a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisRoom: Centro_Room1
-  nextRoom: Centro_Room4
-  playerNewPos: {x: 11.97, y: -14, z: 0}
+  thisRoom: Centro_Room2
+  nextRoom: Centro_Room5
+  playerNewPos: {x: 11.97, y: -12.71, z: 0}
 --- !u!61 &972178267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3471,7 +3357,7 @@ GameObject:
   - component: {fileID: 1170677709}
   - component: {fileID: 1170677711}
   - component: {fileID: 1170677710}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: exitTo_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3673,7 +3559,7 @@ Transform:
   m_GameObject: {fileID: 1312628994}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.69, y: -1.09, z: 0}
+  m_LocalPosition: {x: -9.69, y: -0.14, z: 0}
   m_LocalScale: {x: 1, y: 0.19999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3691,9 +3577,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403af9b1f6ddb434c8d13e0cf2ff146a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisRoom: Centro_Room4
-  nextRoom: Centro_Room1
-  playerNewPos: {x: 8, y: -14, z: 0}
+  thisRoom: Centro_Room5
+  nextRoom: Centro_Room2
+  playerNewPos: {x: 8, y: -12.78, z: 0}
 --- !u!61 &1312628997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3869,7 +3755,7 @@ Transform:
   m_GameObject: {fileID: 1500283344}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.26, y: -18.134968, z: -0.013628211}
+  m_LocalPosition: {x: -26.23, y: -17.37, z: -0.013628211}
   m_LocalScale: {x: 0.8785, y: 0.8785, z: 0.8785}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3927,6 +3813,99 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1605223631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1605223632}
+  - component: {fileID: 1605223634}
+  - component: {fileID: 1605223633}
+  m_Layer: 9
+  m_Name: exitTo_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1605223632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605223631}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.27, y: -5.8, z: 0}
+  m_LocalScale: {x: 1, y: 0.19999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 373325404}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1605223633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605223631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403af9b1f6ddb434c8d13e0cf2ff146a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisRoom: Centro_Room1
+  nextRoom: Centro_Room2
+  playerNewPos: {x: 0, y: -8.5, z: 0}
+--- !u!61 &1605223634
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605223631}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.2376461, y: 2.0086346}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.093495, y: 1.642787}
+  m_EdgeRadius: 0
 --- !u!1 &1622988241
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,7 +4403,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 651bec5642559e843857e2d571bb9fdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5344,7 +5323,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: ab3170df89fb8304cbb43acbcd62746b, type: 3}
   m_Color: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
   m_FlipX: 0
@@ -5560,7 +5539,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 651bec5642559e843857e2d571bb9fdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
