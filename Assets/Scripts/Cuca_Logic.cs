@@ -17,6 +17,7 @@ public class Cuca_Logic : MonoBehaviour
     bool forro;
     PlayerController jogador;
     Cuca_Death death;
+    BoxCollider2D boxCollider;
 
     Vector3 initialRotation1;
     Vector3 initialRotation2;
@@ -25,6 +26,7 @@ public class Cuca_Logic : MonoBehaviour
         stun = 1.3f;
         jogador = FindObjectOfType<PlayerController>();
         death = GetComponent<Cuca_Death>();
+        boxCollider = GetComponent<BoxCollider2D>();
         initialRotation1 = transform.eulerAngles;
         initialRotation2 = jogador.transform.eulerAngles;
     }
@@ -34,10 +36,12 @@ public class Cuca_Logic : MonoBehaviour
         {
             stun -= Time.deltaTime;
             perseguir = false;
+            boxCollider.enabled = false;
         }
         else
         {
             perseguir = true;
+            boxCollider.enabled = true;
         }
         if (perseguir)
         {
@@ -53,19 +57,11 @@ public class Cuca_Logic : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             StartCoroutine(jogador.JogadorPego(tempoDaPEGADA));
+            jogador.pegoPelaCuca = true;
             stun = tempoDaPEGADA + tempoDeStun;
             forro = true;
         }
     }
-    //private void OnTriggerEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        StartCoroutine(jogador.JogadorPego(tempoDaPEGADA));
-    //        stun = tempoDaPEGADA + tempoDeStun;
-    //        forro = true;
-    //    }
-    //}
     IEnumerator Balanca()
     {
         float timeElapsed = 0f;

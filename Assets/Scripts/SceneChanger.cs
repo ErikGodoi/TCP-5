@@ -13,12 +13,14 @@ public class SceneChanger : MonoBehaviour
     public Vector2 novaPos;
     GameManager gm;
     CanvasScript canvas;
+    PlayerController pC;
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
     }
     private void Start()
     {
+        pC = FindAnyObjectByType<PlayerController>();
         gm = FindAnyObjectByType<GameManager>();
         canvas = FindAnyObjectByType<CanvasScript>();
     }
@@ -33,10 +35,14 @@ public class SceneChanger : MonoBehaviour
     }
     IEnumerator Espera()
     {
+        pC.parado = true;
         yield return new WaitForSeconds(1);
         canvas.TrocarCena();
+        gm.DesativarTrocaDeCena();
+        gm.PortalDeVolta();
         gm.NovaCam();
         gm.ChangeRoom(nomeDaNovaSala);
         Destroy(gameObject);
+        pC.parado = false;
     }
 }

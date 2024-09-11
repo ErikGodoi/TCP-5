@@ -4,18 +4,45 @@ using UnityEngine;
 
 public class PegarMochila : MonoBehaviour
 {
-    public GameObject sapoMochila;
+    public Backpack sapoMochila;
     public GameObject nevoa;
-    void Start()
+    public GameObject nevoa2;
+    public GameObject nevoa3;
+
+    public GameManager gm;
+
+    bool temMochila;
+    private void Start()
     {
-        sapoMochila.SetActive(false);
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        sapoMochila = FindObjectOfType<Backpack>();
+        if (sapoMochila.pegouAMochila == false)
+        {
+            sapoMochila.gameObject.SetActive(false);
+        }
+        else
+        {
+            gm.DesativarNevoa();
+        }
+
+    }
+    void Update()
+    {
+        temMochila = sapoMochila.gameObject.activeSelf;
+        if (temMochila)
+        {
+            Destroy(gameObject);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            sapoMochila.SetActive(true);
+            sapoMochila.pegouAMochila = true;
+            sapoMochila.gameObject.SetActive(true);
             nevoa.gameObject.SetActive(false);
+            nevoa2.gameObject.SetActive(false);
+            nevoa3.gameObject.SetActive(false);
             gameObject.SetActive(false);
         }
     }

@@ -4,6 +4,7 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,14 @@ public class GameManager : MonoBehaviour
     public Camera cam;
     [SerializeField] Vector3 camPos;
 
+    SceneChanger[] teleport;
+    public GameObject saportal;
+    public bool ativarPortal;
+
+    [SerializeField]GameObject prefabPlayer;
+    bool instPlayer;
+
+    [SerializeField] GameObject[] nevoa;
     void Awake()
     {
         if (instance == null)
@@ -32,8 +41,17 @@ public class GameManager : MonoBehaviour
         //Inicia a camera para a posição da sala
         UpdateCam(currentRoom);
         cam = FindAnyObjectByType<Camera>();
+        if (!instPlayer)
+        {
+            CriarJogador();
+            instPlayer = true;
+        }
     }
-
+    void CriarJogador()
+    {
+        Vector3 posicaoInicial = new Vector3(0f, 10.46f, 0f);
+        Instantiate(prefabPlayer, posicaoInicial, Quaternion.identity);
+    }
     private void UpdateCam(string currentRoom)
     {
         camPos = GameObject.Find(currentRoom).transform.position;
@@ -50,5 +68,53 @@ public class GameManager : MonoBehaviour
     {
         cam = FindAnyObjectByType<Camera>();
     }
+    public void DesativarTrocaDeCena()
+    {
+        teleport = FindObjectsOfType<SceneChanger>();
+        if (SceneManager.GetActiveScene().name == "Vila de Papelão")
+        {
+            for (int i = 0; i < teleport.Length; i++)
+            {
+                teleport[i].gameObject.SetActive(true);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < teleport.Length; i++)
+            {
+                teleport[i].gameObject.SetActive(false);
+                if (teleport[i].gameObject.name == "sapo_portal")
+                {
+                    teleport[i].gameObject.SetActive(true);
+                }
+                if (teleport[i].gameObject.name == "SaidaVila")
+                {
+                    teleport[i].gameObject.SetActive(true);
+                }
+            }
+        }
+    }
+    public void PortalDeVolta()
+    {
+        if (saportal == null) saportal = GameObject.Find("sapo_portal");
+        if (ativarPortal)
+        {
+            saportal.SetActive(true);
+        }
+        else
+        {
+            saportal.SetActive(false);
+        }
+    }
 
+    public void DesativarNevoa() 
+    {
+        GameObject nevoa1 = GameObject.Find("Névoa Matinta");
+        GameObject nevoa2 = GameObject.Find("Névoa Loira");
+        GameObject nevoa3 = GameObject.Find("Névoa Cuca");
+
+        nevoa1.SetActive(false);
+        nevoa2.SetActive(false);
+        nevoa3.SetActive(false);
+    }
 }

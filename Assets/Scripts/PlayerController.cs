@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour
     public float rayLength;
     
     public bool parado;
-
+    public bool pegoPelaCuca;
+    public int cucaClick;
     //Input Actions
     private PlayerInput playerInput;
     private float horizontalMovement;
@@ -53,8 +54,7 @@ public class PlayerController : MonoBehaviour
         pointClick = false;
         parado = false;
         manager = FindObjectOfType<GameManager>();
-        if (pressedEvent == null)
-                pressedEvent = new UnityEvent();
+        if (pressedEvent == null) pressedEvent = new UnityEvent();
     }
     void Update()
     {
@@ -69,6 +69,10 @@ public class PlayerController : MonoBehaviour
         else
         {
             Move();
+        }
+        if (pegoPelaCuca)
+        {
+            Pego();
         }
     }
     private void FixedUpdate()
@@ -85,8 +89,22 @@ public class PlayerController : MonoBehaviour
     public IEnumerator JogadorPego(float tempo)
     {
         parado = true;
+        pegoPelaCuca = true;
         yield return new WaitForSeconds(tempo);
         parado = false;
+    }
+    void Pego()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            cucaClick++;
+            if (cucaClick == 5)
+            {
+                cucaClick = 0;
+                parado = false;
+                pegoPelaCuca = false;
+            }
+        }
     }
     public void SetMovementVector(InputAction.CallbackContext context)
     {

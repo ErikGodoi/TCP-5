@@ -64,7 +64,7 @@ public class Urutau : MonoBehaviour
             }
             else
             {
-                rb.velocity = 3 * speed * Time.deltaTime * keepKoing;
+                rb.velocity = speed * Time.deltaTime * keepKoing;
             }
         }
         if (pegarPresente)

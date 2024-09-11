@@ -42,7 +42,6 @@ public class InventoryManager : MonoBehaviour
     {
         selectedItem = item;
     }
-
     public void UseSelectedItem(PuzzleSolver target)
     {
         UseItem(selectedItem, target);
@@ -50,5 +49,11 @@ public class InventoryManager : MonoBehaviour
     public void CloseBackPack()
     {
         backpack.Botao();
+    }
+    public void ClearInventory()
+    {
+        items.Clear(); // Limpa todos os itens da lista
+        selectedItem = null; // Remove a seleção de item atual
+        uiController.UpdateUI(); // Atualiza a interface do usuário
     }
 }

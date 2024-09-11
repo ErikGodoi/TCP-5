@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/PedroScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: "Assets/Scenes/Vila de Papel\xE3o.unity"
     guid: e296438d0eb0bfb4897d423089226290
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 6f2d49ce785ade445be6ee1cf92a2765
+  - enabled: 1
+    path: Assets/Scenes/LoiraScene_Pedro.unity
+    guid: 3af548a31b1034f4d8cde426408b4736
+  - enabled: 1
+    path: Assets/Scenes/Matinta.unity
+    guid: d37431c5b6e19654e8b52e2d5823da03
+  - enabled: 0
+    path: Assets/Scenes/PedroScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

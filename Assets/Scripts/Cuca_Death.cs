@@ -8,6 +8,11 @@ public class Cuca_Death : MonoBehaviour
     public int rotationRepetitions = 5; // Número de repetições da rotação de -10 a 10 graus
     public float finalRotation = 90f; // Rotação final no eixo Z
     public float delayBeforeDisappearing = 2f; // Tempo antes de o objeto desaparecer
+    GameManager gm;
+    private void Start()
+    {
+        gm = FindAnyObjectByType<GameManager>();
+    }
 
     public void Morte()
     {
@@ -30,6 +35,8 @@ public class Cuca_Death : MonoBehaviour
         // Esperar por 2 segundos
         yield return new WaitForSeconds(delayBeforeDisappearing);
 
+        gm.ativarPortal = true;
+        gm.PortalDeVolta();
         // Desativar o objeto
         gameObject.SetActive(false);
     }
