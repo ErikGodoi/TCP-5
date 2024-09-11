@@ -8,14 +8,23 @@ public class PegarMochila : MonoBehaviour
     public GameObject nevoa;
     public GameObject nevoa2;
     public GameObject nevoa3;
+
+    public GameManager gm;
+
     bool temMochila;
     private void Start()
     {
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         sapoMochila = FindObjectOfType<Backpack>();
         if (sapoMochila.pegouAMochila == false)
         {
             sapoMochila.gameObject.SetActive(false);
         }
+        else
+        {
+            gm.DesativarNevoa();
+        }
+
     }
     void Update()
     {

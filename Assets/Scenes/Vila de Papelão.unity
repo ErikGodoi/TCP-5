@@ -214,7 +214,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c9b045feea9cefe47911c1be505c7245, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1178,6 +1178,7 @@ MonoBehaviour:
   nevoa: {fileID: 508711711}
   nevoa2: {fileID: 1622988241}
   nevoa3: {fileID: 2093293231}
+  gm: {fileID: 0}
 --- !u!61 &330042157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2342,7 +2343,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c9b045feea9cefe47911c1be505c7245, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4217,6 +4218,22 @@ PrefabInstance:
       propertyPath: prefabPlayer
       value: 
       objectReference: {fileID: 3792264142232646830, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
+    - target: {fileID: 2998522475921896572, guid: 7df9d93445976f7429284d6525328324, type: 3}
+      propertyPath: nevoa.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998522475921896572, guid: 7df9d93445976f7429284d6525328324, type: 3}
+      propertyPath: nevoa.Array.data[0]
+      value: 
+      objectReference: {fileID: 2093293231}
+    - target: {fileID: 2998522475921896572, guid: 7df9d93445976f7429284d6525328324, type: 3}
+      propertyPath: nevoa.Array.data[1]
+      value: 
+      objectReference: {fileID: 1622988241}
+    - target: {fileID: 2998522475921896572, guid: 7df9d93445976f7429284d6525328324, type: 3}
+      propertyPath: nevoa.Array.data[2]
+      value: 
+      objectReference: {fileID: 508711711}
     - target: {fileID: 4124944095406298571, guid: 7df9d93445976f7429284d6525328324, type: 3}
       propertyPath: itemDisplays.Array.size
       value: 10
@@ -4403,7 +4420,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 651bec5642559e843857e2d571bb9fdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5539,7 +5556,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 651bec5642559e843857e2d571bb9fdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

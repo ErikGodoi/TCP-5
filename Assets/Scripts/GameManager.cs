@@ -106,4 +106,15 @@ public class GameManager : MonoBehaviour
             saportal.SetActive(false);
         }
     }
+
+    public void DesativarNevoa() 
+    {
+        GameObject nevoa1 = GameObject.Find("Névoa Matinta");
+        GameObject nevoa2 = GameObject.Find("Névoa Loira");
+        GameObject nevoa3 = GameObject.Find("Névoa Cuca");
+
+        nevoa1.SetActive(false);
+        nevoa2.SetActive(false);
+        nevoa3.SetActive(false);
+    }
 }

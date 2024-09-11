@@ -6413,7 +6413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: "Vila de Papel\xE3o"
-  nomeDaNovaSala: Centro_Room2
+  nomeDaNovaSala: Centro_Room3
   novaPos: {x: 0, y: -28.86}
 --- !u!4 &1830418113
 Transform:
