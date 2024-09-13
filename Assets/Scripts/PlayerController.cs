@@ -38,7 +38,8 @@ public class PlayerController : MonoBehaviour
     // Mover em direção da sombra
     public float towardShadowSpeed;
     Vector3 sombraPos;
-    bool mTS;
+    public bool mTS;
+    public bool animarMamuPreso;
 
     private void Awake() 
     {
@@ -189,6 +190,7 @@ public class PlayerController : MonoBehaviour
             if (transform.position == sombraPos)
             {
                 mTS = false;
+                animarMamuPreso = true;
             }
         }
     }
