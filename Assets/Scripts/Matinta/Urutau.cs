@@ -6,25 +6,31 @@ public class Urutau : MonoBehaviour
 {
     [SerializeField] float speed;
     [SerializeField] float minimalDistance;
+    [SerializeField] float distanciaMovimento = 2f;
+    [SerializeField] int urutausReqGrito;
 
     bool seguindo;
+    bool gritou;
 
     public bool pegarPresente;
     public Vector2 presentePos;
     public bool IsFollowing => seguindo;
 
-
     Vector3 keepKoing;
+    Vector3 posicaoOriginal;
 
     Rigidbody2D rb;
 
     Transform jogador;
 
     PlayerUrutau playerScript;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        posicaoOriginal = transform.position;
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && !seguindo)
@@ -43,11 +49,13 @@ public class Urutau : MonoBehaviour
             }
         }
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         keepKoing = new Vector3(jogador.position.x + Random.Range(-1, 1f), jogador.position.y + Random.Range(-1, 1f), 0) - transform.position;
         keepKoing = keepKoing.normalized;
     }
+
     private void FixedUpdate()
     {
         if (seguindo)
@@ -66,18 +74,72 @@ public class Urutau : MonoBehaviour
             {
                 rb.velocity = speed * Time.deltaTime * keepKoing;
             }
+
+            if (Input.GetMouseButtonDown(0) && GetUrutauSeguindoCount() >= urutausReqGrito)
+            {
+                Grito();
+            }
         }
+
         if (pegarPresente)
         {
             PegarPresente(presentePos);
         }
     }
+
     public void PegarPresente(Vector2 presente)
     {
         transform.position = Vector2.MoveTowards(transform.position, presente, Time.deltaTime * speed);
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         seguindo = false;
         gameObject.tag = "Urutau";
-        
+    }
+
+    public void Grito()
+    {
+        if (this.gameObject.tag == "UrutauSeguindo")
+        {
+            Debug.Log("O Urutau gritou!");
+            
+            GameObject[] urutauObjects = GameObject.FindGameObjectsWithTag("Urutau");
+
+            foreach (GameObject urutau in urutauObjects)
+            {
+                Urutau urutauScript = urutau.GetComponent<Urutau>();
+                if (urutauScript != null)
+                {
+                    if (gritou)
+                    {
+                        urutauScript.RetornarPosicaoOriginal();
+                    }
+                    else
+                    {
+                        urutauScript.MoverParaFrente();
+                    }
+                }
+            }
+
+            gritou = !gritou;
+        }
+        else
+        {
+            Debug.Log("O Urutau não está seguindo, então não grita.");
+        }
+    }
+
+    public void MoverParaFrente()
+    {
+        transform.position += new Vector3(0, distanciaMovimento, 0);
+    }
+
+    public void RetornarPosicaoOriginal()
+    {
+        transform.position = posicaoOriginal;
+    }
+
+    private int GetUrutauSeguindoCount()
+    {
+        GameObject[] urutauSeguindo = GameObject.FindGameObjectsWithTag("UrutauSeguindo");
+        return urutauSeguindo.Length;
     }
 }
