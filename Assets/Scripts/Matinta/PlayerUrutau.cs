@@ -31,7 +31,7 @@ public class PlayerUrutau : MonoBehaviour
             int random = Random.Range(0, urutaus.Length);
 
             urutaus[random].GetComponent<Urutau>().pegarPresente = true;
-            urutaus[random].GetComponent<Urutau>().presentePos = collision.gameObject.transform.position;
+            urutaus[random].GetComponent<Urutau>().objPos1 = collision.gameObject.transform.position;
             collision.gameObject.GetComponent<BoxCollider2D>().enabled = false;
 
             // fazer um urutau aleatorio parar de seguir o player e pegar o presente
