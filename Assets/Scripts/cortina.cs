@@ -12,7 +12,7 @@ public class cortina : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Jogador")
+        if (collision.gameObject.name == "Jogador(Clone)")
         {
             AbreFecha();
             gameObject.SetActive(false);
