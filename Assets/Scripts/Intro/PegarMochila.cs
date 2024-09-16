@@ -11,6 +11,7 @@ public class PegarMochila : MonoBehaviour
 
     public GameManager gm;
 
+    public SoundManager soundManager;
     bool temMochila;
     private void Start()
     {
@@ -39,6 +40,7 @@ public class PegarMochila : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             sapoMochila.pegouAMochila = true;
+            soundManager.PlaySound("somExemplo");
             sapoMochila.gameObject.SetActive(true);
             nevoa.gameObject.SetActive(false);
             nevoa2.gameObject.SetActive(false);

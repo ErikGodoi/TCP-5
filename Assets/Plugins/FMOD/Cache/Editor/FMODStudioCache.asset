@@ -1,0 +1,539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8658849587082891998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/quebrar gaiola
+  m_EditorClassIdentifier: 
+  Path: event:/quebrar gaiola
+  Guid:
+    Data1: 1718723438
+    Data2: 1195026848
+    Data3: 1821895059
+    Data4: 745053460
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7168725846983944273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/som local bloqueado
+  m_EditorClassIdentifier: 
+  Path: event:/som local bloqueado
+  Guid:
+    Data1: -907090754
+    Data2: 1131191993
+    Data3: -1019277164
+    Data4: -1909400857
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6399710324294947584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/interagir gaiola
+  m_EditorClassIdentifier: 
+  Path: event:/interagir gaiola
+  Guid:
+    Data1: 557733444
+    Data2: 1131328087
+    Data3: 962830993
+    Data4: -1494242869
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5527232118122938968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/som caldeirao mexendo
+  m_EditorClassIdentifier: 
+  Path: event:/som caldeirao mexendo
+  Guid:
+    Data1: -616496334
+    Data2: 1286505557
+    Data3: 957877427
+    Data4: 2116031721
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3901475718599024422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/gaiola caindo
+  m_EditorClassIdentifier: 
+  Path: event:/gaiola caindo
+  Guid:
+    Data1: -1781946398
+    Data2: 1113366585
+    Data3: 1845352839
+    Data4: 1425590477
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1874302713239242839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/abrir livro feiti\xE7o"
+  m_EditorClassIdentifier: 
+  Path: "event:/abrir livro feiti\xE7o"
+  Guid:
+    Data1: 229188124
+    Data2: 1250324337
+    Data3: 563645867
+    Data4: -867022844
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1035800990402203730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/coletar itens
+  m_EditorClassIdentifier: 
+  Path: event:/coletar itens
+  Guid:
+    Data1: -331665492
+    Data2: 1215343508
+    Data3: 1972667013
+    Data4: 1943045210
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-858312355680194271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/som caldeirao
+  m_EditorClassIdentifier: 
+  Path: event:/som caldeirao
+  Guid:
+    Data1: -1304015377
+    Data2: 1289556644
+    Data3: 2047938739
+    Data4: -659038870
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-376136643459823895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/fechar livro feiti\xE7o"
+  m_EditorClassIdentifier: 
+  Path: "event:/fechar livro feiti\xE7o"
+  Guid:
+    Data1: -1971598690
+    Data2: 1152146022
+    Data3: 1740016260
+    Data4: -1483605700
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 955208368905521117}
+  - {fileID: 5139656078286906621}
+  EditorEvents:
+  - {fileID: 9004245615592973957}
+  - {fileID: -1874302713239242839}
+  - {fileID: -5527232118122938968}
+  - {fileID: -6399710324294947584}
+  - {fileID: 5528308611370663210}
+  - {fileID: 1211307274639392017}
+  - {fileID: -8658849587082891998}
+  - {fileID: 2731808239081686617}
+  - {fileID: 1134478311173676032}
+  - {fileID: 6014633887214540673}
+  - {fileID: 8591737687026838318}
+  - {fileID: -376136643459823895}
+  - {fileID: 1380785237172588494}
+  - {fileID: -1035800990402203730}
+  - {fileID: -7168725846983944273}
+  - {fileID: -3901475718599024422}
+  - {fileID: -858312355680194271}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 5139656078286906621}
+  StringsBanks:
+  - {fileID: 955208368905521117}
+  cacheTime: 638620323523431554
+  cacheVersion: 131618
+--- !u!114 &955208368905521117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638620323523431554
+  FileSizes:
+  - Name: 
+    Value: 1536
+  Exists: 1
+--- !u!114 &1134478311173676032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/som porta abrindo
+  m_EditorClassIdentifier: 
+  Path: event:/som porta abrindo
+  Guid:
+    Data1: -1171845244
+    Data2: 1301736332
+    Data3: 529502902
+    Data4: 1330707595
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1211307274639392017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/som Ambiente
+  m_EditorClassIdentifier: 
+  Path: event:/som Ambiente
+  Guid:
+    Data1: 1457253731
+    Data2: 1176344804
+    Data3: -435897689
+    Data4: 1123783417
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 104359
+--- !u!114 &1380785237172588494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/portal sapo
+  m_EditorClassIdentifier: 
+  Path: event:/portal sapo
+  Guid:
+    Data1: -617954654
+    Data2: 1149551844
+    Data3: 552903067
+    Data4: -1385394406
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2731808239081686617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/interagir item mochila
+  m_EditorClassIdentifier: 
+  Path: event:/interagir item mochila
+  Guid:
+    Data1: -547860359
+    Data2: 1290236528
+    Data3: 153757109
+    Data4: 1156058510
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5139656078286906621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638620323523421309
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5528308611370663210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/coletar mochila
+  m_EditorClassIdentifier: 
+  Path: event:/coletar mochila
+  Guid:
+    Data1: -1176864938
+    Data2: 1114980140
+    Data3: -391306341
+    Data4: 1523436311
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6014633887214540673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/interagir placa cuca
+  m_EditorClassIdentifier: 
+  Path: event:/interagir placa cuca
+  Guid:
+    Data1: -916890487
+    Data2: 1120199734
+    Data3: 1095578045
+    Data4: -1440953811
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8591737687026838318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/abrir mochila
+  m_EditorClassIdentifier: 
+  Path: event:/abrir mochila
+  Guid:
+    Data1: -1301652840
+    Data2: 1164782946
+    Data3: -466086783
+    Data4: -817786813
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9004245615592973957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/som interagir caldeirao
+  m_EditorClassIdentifier: 
+  Path: event:/som interagir caldeirao
+  Guid:
+    Data1: 1505293592
+    Data2: 1335496459
+    Data3: -12268364
+    Data4: 255233167
+  Banks:
+  - {fileID: 5139656078286906621}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

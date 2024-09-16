@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43f0c445-e30a-44c4-ac34-fc3cc551988a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TCP-5/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TCP-5/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TCP-5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TCP-5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FMOD Banks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FMOD Banks/Desktop.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FMOD Banks/Desktop/Master.bank" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FMOD Banks/Desktop/Master.bank.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FMOD Banks/Desktop/Master.strings.bank" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FMOD Banks/Desktop/Master.strings.bank.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMODUnity.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMODUnity.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/LICENSE.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/README.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FMODUnityResonanceEditor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FMODUnityResonanceEditor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FMODUnityResonance.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FMODUnityResonance.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/AddIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/AddIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/ArrowIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/ArrowIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/BankIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/BankIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/Border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/Border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/BrowserIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/BrowserIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/ContinuousParameterIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/ContinuousParameterIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/CopyIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/CopyIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/CrossYellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/CrossYellow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/Delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/Delete.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/DiscreteParameterIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/DiscreteParameterIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/EventIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/EventIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/FMODLogoBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/FMODLogoBlack.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/FMODLogoWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/FMODLogoWhite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/FolderIconClosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/FolderIconClosed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/FolderIconOpen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/FolderIconOpen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/LabeledParameterIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/LabeledParameterIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/LevelMeter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/LevelMeter.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/LevelMeterOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/LevelMeterOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/NotFound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/NotFound.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/Preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/Preview.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/PreviewEmitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/PreviewEmitter.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/SearchIconBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/SearchIconBlack.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/SelectedAlt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/SelectedAlt.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/SnapshotIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/SnapshotIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/StudioIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/StudioIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TickGreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TickGreen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportOpen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportOpen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportPlayButtonOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportPlayButtonOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportPlayButtonOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportPlayButtonOn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportStopButtonOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportStopButtonOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportStopButtonOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/TransportStopButtonOn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/Wrench.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/images/Wrench.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platform_ios.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platform_ios.mm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmod.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmod.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmod.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmod.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/fmod.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/fmod.jar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/src/PlatformAndroid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/src/PlatformAndroid.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudio.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudio.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudioL.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudioL.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounityplugin.bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounityplugin.bc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounitypluginL.bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounitypluginL.bc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/src/PlatformWebGL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/src/PlatformWebGL.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounityplugin.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounityplugin.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginL.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginL.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulatorL.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulatorL.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudio.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudio.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudiosimulator.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudiosimulator.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/src/PlatformIOS.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/src/PlatformIOS.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/src/PlatformLinux.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/src/PlatformLinux.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/MacOS/fmodstudio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/_CodeSignature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/_CodeSignature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/MacOS/resonanceaudio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/_CodeSignature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/src/PlatformMac.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/src/PlatformMac.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginL.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginL.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulator.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulator.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulatorL.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulatorL.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/src/PlatformAppleTV.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/src/PlatformAppleTV.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmod.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmod.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudioL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudioL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmod.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudioL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudioL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xros.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xros.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xrsimulator.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xrsimulator.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudio_xros.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudio_xros.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudio_xrsimulator.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudio_xrsimulator.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libresonanceaudio_xros.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libresonanceaudio_xros.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libresonanceaudio_xrsimulator.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/lib/libresonanceaudio_xrsimulator.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/src/PlatformVisionOS.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/visionos/src/PlatformVisionOS.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudioL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudioL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/resonanceaudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/resonanceaudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/resonanceaudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/resonanceaudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/src/PlatformWindows.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/src/PlatformWindows.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/AutomatableSlots.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/AutomatableSlots.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/BankRefAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/BankRefAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BankRefDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BankRefDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BankRefresher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BankRefresher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BoltIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BoltIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/CodeGeneration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/CodeGeneration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorBankRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorBankRef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventCache.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FMODEventPlayableEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FMODEventPlayableEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FMODEventTrackEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FMODEventTrackEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FMODUnityEditor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FMODUnityEditor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/ListView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/ListView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/ParamRefDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/ParamRefDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioBankLoaderEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioBankLoaderEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterGizmoDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterGizmoDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioListenerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioListenerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/EventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/EventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/EventRefAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/EventRefAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/EventReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/EventReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/FMODEventPlayable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/FMODEventPlayable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/FMODEventTrack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/FMODEventTrack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/FMODRuntimeManagerOnGUIHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/FMODRuntimeManagerOnGUIHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/ParamRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/ParamRef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/ParamRefAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/ParamRefAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Platform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Platform.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformDefault.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformDefault.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformMobileHigh.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformMobileHigh.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformMobileLow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformMobileLow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformPlayInEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformPlayInEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioBankLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioBankLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioEventEmitter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioGlobalParameterTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioGlobalParameterTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioParameterTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/StudioParameterTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod_dsp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod_dsp.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod_errors.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod_errors.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod_studio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod_studio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Vila de Papelão.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Vila de Papelão.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/renatin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/renatin.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Intro/PegarMochila.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Intro/PegarMochila.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kx0V2gIZzEhqTjkXaWu1bmbLnf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Vila-de-Papelão",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\renatin\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\renatin\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\renatin\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Faculdade\Projetos Unity\TCP-5&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Faculdade\Projetos Unity\TCP-5" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Faculdade\Projetos Unity\TCP-5&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Faculdade\Projetos Unity\TCP-5" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43f0c445-e30a-44c4-ac34-fc3cc551988a" name="Changes" comment="" />
+      <created>1724209940712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724209940712</updated>
+      <workItem from="1724209942977" duration="1195000" />
+      <workItem from="1726445521585" duration="3837000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

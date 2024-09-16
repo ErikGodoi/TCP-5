@@ -1171,6 +1171,7 @@ MonoBehaviour:
   nevoa2: {fileID: 2085339255}
   nevoa3: {fileID: 673063841}
   gm: {fileID: 0}
+  soundManager: {fileID: 638743437}
 --- !u!61 &330042157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2473,6 +2474,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &638743431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 238413342636973564, guid: 7df9d93445976f7429284d6525328324, type: 3}
+  m_PrefabInstance: {fileID: 1710076385}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &638743437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638743431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16acdbbab0c9a1f498fc826080c6932c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  somExemploEvent:
+    Guid:
+      Data1: 229188124
+      Data2: 1250324337
+      Data3: 563645867
+      Data4: -867022844
+    Path: "event:/abrir livro feiti\xE7o"
+  somAmbienteEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &673063841
 GameObject:
   m_ObjectHideFlags: 0
@@ -4812,9 +4844,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1702960073}
   - component: {fileID: 1702960072}
-  - component: {fileID: 1702960071}
   - component: {fileID: 1702960070}
   - component: {fileID: 1702960069}
+  - component: {fileID: 1702960074}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4882,14 +4914,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
---- !u!81 &1702960071
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702960068}
-  m_Enabled: 1
 --- !u!20 &1702960072
 Camera:
   m_ObjectHideFlags: 0
@@ -4957,6 +4981,19 @@ Transform:
   - {fileID: 136089714}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1702960074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702960068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1001 &1710076385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5124,7 +5161,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 238413342636973564, guid: 7df9d93445976f7429284d6525328324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 638743437}
   m_SourcePrefab: {fileID: 100100000, guid: 7df9d93445976f7429284d6525328324, type: 3}
 --- !u!1 &1735145155
 GameObject:
