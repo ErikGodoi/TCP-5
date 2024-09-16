@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
 
+    [Header("Objeto de transição de cena")]
+    public GameObject transicao;
     [SerializeField] string currentRoom = "Cuca_Room1";
     
     public Camera cam;
@@ -38,6 +40,7 @@ public class GameManager : MonoBehaviour
     
     private void Start()
     {
+        transicao.SetActive(false);
         //Inicia a camera para a posição da sala
         UpdateCam(currentRoom);
         cam = FindAnyObjectByType<Camera>();
