@@ -25,6 +25,11 @@ public class GameManager : MonoBehaviour
     bool instPlayer;
 
     [SerializeField] GameObject[] nevoa;
+    SceneChanger[] sceneChangers;
+
+    CanvasScript canvas;
+    PlayerController pC;
+    InventoryManager inventory;
     void Awake()
     {
         if (instance == null)
@@ -37,9 +42,18 @@ public class GameManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
     }
-    
+    public void DestroySceneChanger()
+    {
+        sceneChangers = FindObjectsOfType<SceneChanger>();
+        for (int i = 0; i < sceneChangers.Length; i++)
+        {
+            Destroy(sceneChangers[i].gameObject);
+        }
+    }
     private void Start()
     {
+        canvas = FindAnyObjectByType<CanvasScript>();
+        inventory = FindAnyObjectByType<InventoryManager>();
         transicao.SetActive(false);
         //Inicia a camera para a posição da sala
         UpdateCam(currentRoom);
@@ -53,7 +67,8 @@ public class GameManager : MonoBehaviour
     void CriarJogador()
     {
         Vector3 posicaoInicial = new Vector3(0f, 10.46f, 0f);
-        Instantiate(prefabPlayer, posicaoInicial, Quaternion.identity);
+        GameObject inst = Instantiate(prefabPlayer, posicaoInicial, Quaternion.identity);
+        pC = inst.GetComponent<PlayerController>();
     }
     private void UpdateCam(string currentRoom)
     {
@@ -100,13 +115,16 @@ public class GameManager : MonoBehaviour
     public void PortalDeVolta()
     {
         if (saportal == null) saportal = GameObject.Find("sapo_portal");
-        if (ativarPortal)
+        if (saportal != null)
         {
-            saportal.SetActive(true);
-        }
-        else
-        {
-            saportal.SetActive(false);
+            if (ativarPortal)
+            {
+                saportal.SetActive(true);
+            }
+            else
+            {
+                saportal.SetActive(false);
+            }
         }
     }
 
@@ -119,5 +137,24 @@ public class GameManager : MonoBehaviour
         nevoa1.SetActive(false);
         nevoa2.SetActive(false);
         nevoa3.SetActive(false);
+    }
+    public void TrocarCena(string sala)
+    {
+        StartCoroutine(Espera(sala));
+    }
+    IEnumerator Espera(string sala)
+    {
+        pC.parado = true;
+        transicao.SetActive(true);
+        DestroySceneChanger();
+        yield return new WaitForSeconds(1);
+        canvas.TrocarCena();
+        inventory.ClearInventory();
+        DesativarTrocaDeCena();
+        PortalDeVolta();
+        NovaCam();
+        ChangeRoom(sala);
+        transicao.SetActive(false);
+        pC.parado = false;
     }
 }
