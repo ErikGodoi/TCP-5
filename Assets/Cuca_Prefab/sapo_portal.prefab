@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ativado: 0
-  espera: 1
+  espera: 1.5
   boxCollider: {fileID: 8402838441463183694}
   boxCollider2: {fileID: 2696519821528097808}
 --- !u!114 &4106250232579323916

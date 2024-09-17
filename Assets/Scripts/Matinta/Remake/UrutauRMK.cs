@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class UrutauRMK : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Objetivo serve para marcar um objeto para onde o urutau vai")]
+    public GameObject objetivo;
+
+    Vector2 posicaoInicial;
     void Start()
     {
-        
+        posicaoInicial = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         

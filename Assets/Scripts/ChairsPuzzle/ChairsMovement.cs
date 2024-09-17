@@ -13,11 +13,7 @@ public class ChairsMovement : MonoBehaviour
 
     [SerializeField] private int selected = 0;
 
-    void Awake()
-    {
-        
-    }
-
+    [SerializeField] private float changeSpeed;
     void Update()
     {
         SelectChairs();
@@ -26,10 +22,7 @@ public class ChairsMovement : MonoBehaviour
         {
             ChangeChairs(chair1, chair2);
         }
-
-
     }
-
     public void SelectChairs()
     {
         if (Input.GetMouseButtonDown(0))
@@ -60,24 +53,21 @@ public class ChairsMovement : MonoBehaviour
             }
         }
     }
-
     public void ChangeChairs(GameObject chair1, GameObject chair2) 
     {
         Vector2 chair1Pos = chair1.transform.position;
         Vector2 chair2Pos = chair2.transform.position;
 
-        float speed = 2f;
-
         if(chair1Pos != chair2StartPos)
         {
             chair1.transform.position = 
-            Vector2.MoveTowards(chair1Pos, chair2StartPos, speed * Time.deltaTime);
+            Vector2.MoveTowards(chair1Pos, chair2StartPos, changeSpeed * Time.deltaTime);
         }
         
         if(chair1Pos == chair2StartPos && chair2Pos != chair1StartPos)
         {
             chair2.transform.position = 
-            Vector2.MoveTowards(chair2Pos, chair1StartPos, speed * Time.deltaTime);
+            Vector2.MoveTowards(chair2Pos, chair1StartPos, changeSpeed * Time.deltaTime);
         }
 
         if(chair2Pos == chair1StartPos)
@@ -86,5 +76,4 @@ public class ChairsMovement : MonoBehaviour
             this.chair1 = this.chair2 = null;//Unassign chairs
         }
     }
-
 }
