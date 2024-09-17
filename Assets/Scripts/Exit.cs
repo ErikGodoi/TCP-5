@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteAlways]
 public class Exit : MonoBehaviour
 {
-    [SerializeField] string thisRoom;
+    [SerializeField] public string thisRoom;
     [SerializeField] public string nextRoom;
     [SerializeField] public Vector3 playerNewPos;
 
