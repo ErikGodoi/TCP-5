@@ -11,7 +11,9 @@ public class CageManager : MonoBehaviour
 
     [SerializeField] private int clickCount = 0;
     [SerializeField] private int maxClicks = 5;
-
+    [SerializeField] GameObject mouse;
+    [Header("Tempo até o mouse aparecer do lado da jaula")]
+    public float mouseCD;
     float objectY;
 
     public float fallSpeed = 5f;
@@ -30,7 +32,7 @@ public class CageManager : MonoBehaviour
         player = FindObjectOfType<PlayerController>();
         objectY = transform.position.y;
         state = CageState.Inactive;
-
+        mouse.SetActive(false);
         // Léo do futuro, por favor, conserte isso. Obrigado.
         shadowScript = GetComponentInParent<CageShadow>();
 
@@ -75,9 +77,8 @@ public class CageManager : MonoBehaviour
 
     private void HandleActive()
     {
-        cageObject.SetActive(true);
-
-        
+        StartCoroutine(tempo());
+        mouse.SetActive(true);
         Vector2 fall = new Vector2 (transform.position.x, objectY -3.44f);
         transform.position = Vector2.MoveTowards(transform.position, fall, Time.deltaTime * fallSpeed);
 
@@ -86,12 +87,17 @@ public class CageManager : MonoBehaviour
             state = CageState.Destroyed;
         }
     }
-
+    IEnumerator tempo()
+    {
+        yield return new WaitForSeconds(mouseCD);
+        cageObject.SetActive(true);
+    }
     private void HandleDestroyed()
     {
         clickCount = 0;
         player.parado = false;
         cageObject.SetActive(false);
+        mouse.SetActive(false);
         Debug.Log("JAULA DESTRUÍDA");
         // Adicionar lógica adicional para quando a jaula é destruída, se necessário
     }

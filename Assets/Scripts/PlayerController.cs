@@ -84,6 +84,7 @@ public class PlayerController : MonoBehaviour
         parado = true;
         yield return new WaitForSeconds(tempo);
         parado = false;
+        pegoPelaCuca = false;
     }
     public void SetMovementVector(InputAction.CallbackContext context)
     {

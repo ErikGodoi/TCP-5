@@ -11,20 +11,25 @@ public class Cuca_Logic : MonoBehaviour
     public float tempoDaPEGADA;
     [Tooltip("Quanto tempo a cuca fica estunada dps de molestar o jogador(3s = 3s parado depois do jogador poder se mexer)")]
     public float tempoDeStun;
+    [Header("Mouse para o Feedback da cuca")]
+    public GameObject mouse;
     public float balangadaPorSegundo;
     float stun;
     bool perseguir;
     bool forro;
     PlayerController jogador;
     Cuca_Death death;
+    BoxCollider2D boxCollider;
 
     Vector3 initialRotation1;
     Vector3 initialRotation2;
     void Start()
     {
+        mouse.SetActive(false);
         stun = 1.3f;
         jogador = FindObjectOfType<PlayerController>();
         death = GetComponent<Cuca_Death>();
+        boxCollider = GetComponent<BoxCollider2D>();
         initialRotation1 = transform.eulerAngles;
         initialRotation2 = jogador.transform.eulerAngles;
     }
@@ -34,10 +39,12 @@ public class Cuca_Logic : MonoBehaviour
         {
             stun -= Time.deltaTime;
             perseguir = false;
+            boxCollider.enabled = false;
         }
         else
         {
             perseguir = true;
+            boxCollider.enabled = true;
         }
         if (perseguir)
         {
@@ -53,19 +60,18 @@ public class Cuca_Logic : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             StartCoroutine(jogador.JogadorPego(tempoDaPEGADA));
+            jogador.pegoPelaCuca = true;
             stun = tempoDaPEGADA + tempoDeStun;
             forro = true;
+            StartCoroutine(Feedback());
         }
     }
-    //private void OnTriggerEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        StartCoroutine(jogador.JogadorPego(tempoDaPEGADA));
-    //        stun = tempoDaPEGADA + tempoDeStun;
-    //        forro = true;
-    //    }
-    //}
+    IEnumerator Feedback()
+    {
+        mouse.SetActive(true);
+        yield return new WaitForSeconds(stun);
+        mouse.SetActive(false);
+    }
     IEnumerator Balanca()
     {
         float timeElapsed = 0f;
