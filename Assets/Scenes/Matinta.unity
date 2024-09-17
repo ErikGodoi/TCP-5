@@ -718,6 +718,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3327636062877383683, guid: ce5b6c2718e718540af5066d2fbe5430, type: 3}
+      propertyPath: velocidade
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3435174048277270807, guid: ce5b6c2718e718540af5066d2fbe5430, type: 3}
       propertyPath: m_Name
       value: Urutau Matinta (1)
@@ -5034,6 +5038,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 297263948744493011, guid: 1518b6b5a061b144d95ace066b9562f2, type: 3}
+      propertyPath: intervaloGrito
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 297263948744493011, guid: 1518b6b5a061b144d95ace066b9562f2, type: 3}
       propertyPath: urutausMatinta1.Array.data[0]
       value: 

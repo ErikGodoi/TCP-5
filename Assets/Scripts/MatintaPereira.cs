@@ -12,14 +12,11 @@ public class MatintaPereira : MonoBehaviour
     public float duracao;
 
     [SerializeField] int matintaGritos = 0;
+    [SerializeField] float intervaloGrito = 5f;
 
-    void Update()
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            GritoSupremo();
-            Debug.Log("Matinta Gritou");
-        }
+        StartCoroutine(GritarComIntervalo());
     }
 
     private void GritoSupremo()
@@ -67,5 +64,15 @@ public class MatintaPereira : MonoBehaviour
             yield return null;
         }
         transform.position = posicaoInicial;
+    }
+
+    IEnumerator GritarComIntervalo()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(intervaloGrito);
+            GritoSupremo();
+            Debug.Log("Matinta Gritou");
+        }
     }
 }
