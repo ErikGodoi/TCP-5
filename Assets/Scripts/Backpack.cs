@@ -10,6 +10,7 @@ public class Backpack : MonoBehaviour
     public Sprite close;
 
     public GameObject inventoryBackground;
+    public bool pegouAMochila;
     public void Botao()
     {
         if (aberto)

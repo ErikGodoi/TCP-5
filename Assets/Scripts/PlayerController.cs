@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour
     public float rayLength;
     
     public bool parado;
-
+    public bool pegoPelaCuca;
+    public int cucaClick;
     //Input Actions
     private PlayerInput playerInput;
     private float horizontalMovement;
@@ -26,6 +27,8 @@ public class PlayerController : MonoBehaviour
     
     // Troca de Cena
     public GameManager manager;
+    [SerializeField] Animator transitionCtrl;
+    [SerializeField] float transitionTime;
 
     // Point & Click
     public bool pointClick;
@@ -37,10 +40,15 @@ public class PlayerController : MonoBehaviour
     // Mover em direção da sombra
     public float towardShadowSpeed;
     Vector3 sombraPos;
-    bool mTS;
+    public bool mTS;
+    public bool animarMamuPreso;
+
+    // Livro de Receitas
+    CanvasScript cScript;
 
     private void Awake() 
     {
+        DontDestroyOnLoad(gameObject);
         playerInput = GetComponent<PlayerInput>();
     }
     void Start()
@@ -50,8 +58,9 @@ public class PlayerController : MonoBehaviour
         pointClick = false;
         parado = false;
         manager = FindObjectOfType<GameManager>();
-        if (pressedEvent == null)
-                pressedEvent = new UnityEvent();
+        transitionCtrl = GameObject.Find("RoomTransition").GetComponent<Animator>();
+        if (pressedEvent == null) pressedEvent = new UnityEvent();
+        cScript = FindObjectOfType<CanvasScript>();
     }
     void Update()
     {
@@ -66,6 +75,10 @@ public class PlayerController : MonoBehaviour
         else
         {
             Move();
+        }
+        if (pegoPelaCuca)
+        {
+            Pego();
         }
     }
     private void FixedUpdate()
@@ -82,9 +95,25 @@ public class PlayerController : MonoBehaviour
     public IEnumerator JogadorPego(float tempo)
     {
         parado = true;
+        pegoPelaCuca = true;
         yield return new WaitForSeconds(tempo);
         parado = false;
         pegoPelaCuca = false;
+    }
+    void Pego()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            cucaClick++;
+            Debug.Log("Clicou " + cucaClick + " vezes");
+            if (cucaClick == 5)
+            {
+                cucaClick = 0;
+                parado = false;
+                pegoPelaCuca = false;
+                Debug.Log("Se libertou");
+            }
+        }
     }
     public void SetMovementVector(InputAction.CallbackContext context)
     {
@@ -161,6 +190,10 @@ public class PlayerController : MonoBehaviour
             sombraPos = new Vector3(collision.gameObject.transform.position.x, collision.gameObject.transform.position.y + 1f, 0);
             mTS = true;
         }
+        if(collision.gameObject.name == "LivroReceitas")
+        {
+            cScript.livro.SetActive(true);
+        }
     }
     private void moveToShadow()
     {
@@ -171,6 +204,7 @@ public class PlayerController : MonoBehaviour
             if (transform.position == sombraPos)
             {
                 mTS = false;
+                animarMamuPreso = true;
             }
         }
     }
@@ -178,12 +212,17 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.name.Contains("exitTo"))
         {
-            //parado = true;
+            if(transitionCtrl != null)
+            {
+                StartCoroutine(Transition(collision, transitionTime));
+            }
+            else
+            {
+                Exit exit = collision.gameObject.GetComponent<Exit>();
+                manager.ChangeRoom(exit.nextRoom);
+                this.transform.position = exit.playerNewPos;
+            }
             
-            Exit exit = collision.gameObject.GetComponent<Exit>();
-            manager.ChangeRoom(exit.nextRoom);
-
-            this.transform.position = exit.playerNewPos;
         }
         if (collision.gameObject.name.Contains("exitTo_Cuca12"))
         {
@@ -199,6 +238,7 @@ public class PlayerController : MonoBehaviour
         }
         this.parado = stop;
     }
+
     public void ChangeActionMaps(string newActionMap)
     {
         playerInput.SwitchCurrentActionMap(newActionMap);
@@ -212,4 +252,22 @@ public class PlayerController : MonoBehaviour
                 break;
         }
     }
+
+    IEnumerator Transition(Collider2D collision, float outTime)
+    {
+        parado = true;
+        transitionCtrl.SetTrigger("Start"); //start anim
+
+        //wait for it to finish
+        yield return new WaitForSeconds(outTime);
+        parado = false;
+
+        //load it normally (for camera changes)
+        Exit exit = collision.gameObject.GetComponent<Exit>();
+        manager.ChangeRoom(exit.nextRoom);
+        this.transform.position = exit.playerNewPos;
+        
+        transitionCtrl.SetTrigger("End"); //and end it
+    }
+    
 }

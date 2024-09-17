@@ -11,10 +11,12 @@ public class Exit : MonoBehaviour
 
     void Start()
     {
+        /*
         if(!this.gameObject.name.Contains("exitTo_"))
             Debug.Log("Por favor nomeie este gameObject com o padrão:\n " + 
             " exitTo_NomePróximaSala_From_NomedaSalaAtual\n" +
             "E por favor sete as propriedades thisRoom, nextRoom e playerNewPos");
+            */
     }
 
 }

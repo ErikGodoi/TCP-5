@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
-
+using System.Collections;
+using System.Collections.Generic;
 public class CageManager : MonoBehaviour
 {
     private CageShadow shadowScript;
@@ -29,7 +30,7 @@ public class CageManager : MonoBehaviour
 
     private void Start()
     {
-        player = FindObjectOfType<PlayerController>();
+        StartCoroutine(AcharPlayer());
         objectY = transform.position.y;
         state = CageState.Inactive;
         mouse.SetActive(false);
@@ -38,7 +39,12 @@ public class CageManager : MonoBehaviour
 
         UpdateCageState(state); // Inicializa o estado
     }
+    IEnumerator AcharPlayer()
+    {
+        yield return new WaitForSeconds(0.5f);
 
+        player = FindObjectOfType<PlayerController>();
+    }
     private void Update()
     {
         if(state == CageState.Active)
@@ -94,6 +100,7 @@ public class CageManager : MonoBehaviour
     }
     private void HandleDestroyed()
     {
+        player = FindObjectOfType<PlayerController>();
         clickCount = 0;
         player.parado = false;
         cageObject.SetActive(false);
