@@ -40,7 +40,11 @@ public class PlayerController : MonoBehaviour
     // Mover em direção da sombra
     public float towardShadowSpeed;
     Vector3 sombraPos;
-    bool mTS;
+    public bool mTS;
+    public bool animarMamuPreso;
+
+    // Livro de Receitas
+    CanvasScript cScript;
 
     private void Awake() 
     {
@@ -56,6 +60,7 @@ public class PlayerController : MonoBehaviour
         manager = FindObjectOfType<GameManager>();
         transitionCtrl = GameObject.Find("RoomTransition").GetComponent<Animator>();
         if (pressedEvent == null) pressedEvent = new UnityEvent();
+        cScript = FindObjectOfType<CanvasScript>();
     }
     void Update()
     {
@@ -96,14 +101,16 @@ public class PlayerController : MonoBehaviour
     }
     void Pego()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             cucaClick++;
+            Debug.Log("Clicou " + cucaClick + " vezes");
             if (cucaClick == 5)
             {
                 cucaClick = 0;
                 parado = false;
                 pegoPelaCuca = false;
+                Debug.Log("Se libertou");
             }
         }
     }
@@ -182,6 +189,10 @@ public class PlayerController : MonoBehaviour
             sombraPos = new Vector3(collision.gameObject.transform.position.x, collision.gameObject.transform.position.y + 1f, 0);
             mTS = true;
         }
+        if(collision.gameObject.name == "LivroReceitas")
+        {
+            cScript.livro.SetActive(true);
+        }
     }
     private void moveToShadow()
     {
@@ -192,6 +203,7 @@ public class PlayerController : MonoBehaviour
             if (transform.position == sombraPos)
             {
                 mTS = false;
+                animarMamuPreso = true;
             }
         }
     }

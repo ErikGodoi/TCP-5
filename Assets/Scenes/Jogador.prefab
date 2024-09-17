@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf2b473b5ad6ae4a9d56f8a15012a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  urutauSeguindo: 0
 --- !u!114 &192990059105076570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryManager: {fileID: 0}
   inventoryUi: {fileID: 0}
+  backPack: {fileID: 0}
+  velo: 15
   cucaPzzl2Itens: 0
 --- !u!114 &3142028227548798453
 MonoBehaviour:
@@ -232,6 +235,8 @@ MonoBehaviour:
     m_Bits: 64
   rayLength: 0.7
   parado: 0
+  pegoPelaCuca: 0
+  cucaClick: 0
   nextPressed: 0
   pressedEvent:
     m_PersistentCalls:
@@ -242,6 +247,8 @@ MonoBehaviour:
   pointClick: 0
   speed: 5
   towardShadowSpeed: 5
+  mTS: 0
+  animarMamuPreso: 0
 --- !u!114 &4133504933957530516
 MonoBehaviour:
   m_ObjectHideFlags: 0

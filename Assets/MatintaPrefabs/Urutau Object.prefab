@@ -92,8 +92,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3284be4475264024295d9f2d6eecb911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
+  speed: 1000
   minimalDistance: 2
+  distanciaMovimento: 2
   pegarPresente: 0
   presentePos: {x: 0, y: 0}
 --- !u!50 &7140442083345559289

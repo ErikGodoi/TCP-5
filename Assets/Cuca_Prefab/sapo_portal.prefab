@@ -213,4 +213,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: "Vila de Papel\xE3o"
   nomeDaNovaSala: Centro_Room0
-  novaPos: {x: 0, y: 0}
+  novaPos: {x: 0, y: 10}

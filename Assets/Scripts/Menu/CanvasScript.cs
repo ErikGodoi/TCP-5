@@ -11,6 +11,9 @@ public class CanvasScript : MonoBehaviour
     public Camera cam;
     [Header("Chamar a função TrocarCena(); sempre que mudar uma cena do jogo.")]
     public bool trocouDeCena;
+
+    [Header("Livro de Receitas")]
+    public GameObject livro;
     void Awake()
     {
         if (instance == null)
@@ -26,6 +29,7 @@ public class CanvasScript : MonoBehaviour
     void Start()
     {
         canvas = GetComponent<Canvas>();
+        livro.SetActive(false);
         trocouDeCena = true;
         TrocarCena();
     }
@@ -37,5 +41,9 @@ public class CanvasScript : MonoBehaviour
             canvas.worldCamera = cam;
             trocouDeCena = false;
         }
+    }
+    public void FecharLivro()
+    {
+        livro.SetActive(false);
     }
 }

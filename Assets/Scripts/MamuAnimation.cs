@@ -19,10 +19,27 @@ public class MamuAnimation : MonoBehaviour
     }
     void Animar()
     {
+        if (pC.parado == true)
+        {
+            ani.SetBool("R", false);
+            ani.SetBool("L", false);
+            ani.SetBool("U", false);
+            ani.SetBool("D", false);
+            ani.SetBool("I", false);
+            if (pC.mTS == false && pC.animarMamuPreso == true)
+            {
+                ani.SetBool("Preso", true);
+                if (Input.GetMouseButtonDown(0))
+                {
+                    ani.SetTrigger("PresoClick");
+                }
+            }
+        }
         if (pC.parado == false)
         {
             H = Input.GetAxisRaw("Horizontal");
             V = Input.GetAxisRaw("Vertical");
+            ani.SetBool("Preso", false);
             if (H > 0)
             {
                 ani.SetBool("R", true);
