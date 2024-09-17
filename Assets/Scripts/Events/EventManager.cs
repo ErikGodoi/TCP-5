@@ -7,10 +7,8 @@ public class EventManager : MonoBehaviour
 {
     public static event Action OpenWarehouseEvent;
 
-
-
-    //Event Trigger Methods:
-    public static void PuzzleSolvedTrigger()
+    //Event Invoke Methods - the event *is called*
+    public static void InvokeOpenWarehouse()
     {
         OpenWarehouseEvent?.Invoke();
     }

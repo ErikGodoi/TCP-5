@@ -50,6 +50,10 @@ MonoBehaviour:
   currentRoom: Centro_Room0
   cam: {fileID: 0}
   camPos: {x: 0, y: 11.46, z: -10}
+  saportal: {fileID: 0}
+  ativarPortal: 0
+  prefabPlayer: {fileID: 3792264142232646830, guid: 86002eb2466bd144782b0355dd2dc8d6, type: 3}
+  nevoa: []
 --- !u!114 &4124944095406298571
 MonoBehaviour:
   m_ObjectHideFlags: 0

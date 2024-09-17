@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour
         pointClick = false;
         parado = false;
         manager = FindObjectOfType<GameManager>();
+        transitionCtrl = GameObject.Find("RoomTransition").GetComponent<Animator>();
         if (pressedEvent == null) pressedEvent = new UnityEvent();
     }
     void Update()

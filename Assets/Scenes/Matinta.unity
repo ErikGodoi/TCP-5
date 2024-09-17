@@ -2243,7 +2243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisRoom: Matinta_Room2
-  nextRoom: Matinta_Room3
+  nextRoom: Matinta_Room1
   playerNewPos: {x: 8.63, y: -0.92, z: 0}
 --- !u!1 &524751766
 GameObject:
