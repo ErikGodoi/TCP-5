@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Objeto de transição de cena")]
     public GameObject transicao;
-    [SerializeField] string currentRoom = "Cuca_Room1";
+    [SerializeField] public string currentRoom = "Cuca_Room1";
     
     public Camera cam;
     [SerializeField] Vector3 camPos;
