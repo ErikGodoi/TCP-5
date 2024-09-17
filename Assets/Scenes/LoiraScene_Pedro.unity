@@ -6623,6 +6623,10 @@ PrefabInstance:
       value: -12.04
       objectReference: {fileID: 0}
     - target: {fileID: 2998522475921896572, guid: 7df9d93445976f7429284d6525328324, type: 3}
+      propertyPath: transicao
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998522475921896572, guid: 7df9d93445976f7429284d6525328324, type: 3}
       propertyPath: currentRoom
       value: Loira_Room1
       objectReference: {fileID: 0}
@@ -10010,6 +10014,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3885733471748164345, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4001493517551805818, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -10038,6 +10046,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5304299238894420579, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5805704520470056796, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6416077808759208898, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -10054,6 +10070,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6557901911412477691, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.9750366
+      objectReference: {fileID: 0}
     - target: {fileID: 7529982902126919317, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
@@ -10065,6 +10085,10 @@ PrefabInstance:
     - target: {fileID: 7529982902126919317, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
       propertyPath: m_ReferenceResolution.y
       value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774387379544293523, guid: fba931948f7c46b4ea89c04c87f5b559, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -959.99994
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
