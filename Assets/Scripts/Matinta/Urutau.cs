@@ -10,7 +10,7 @@ public class Urutau : MonoBehaviour
     [SerializeField] float distanciaVertical;
     [SerializeField] int urutausReqGrito;
 
-    bool seguindo;
+    public bool seguindo;
     bool gritou;
 
     public bool pegarPresente;
@@ -27,6 +27,8 @@ public class Urutau : MonoBehaviour
 
     PlayerUrutau playerScript;
 
+    private Animator animator;
+
     [Tooltip("Esse objeto abaixo tem q ficar vazio em todos os urutaus exceto o da gaiola")]
     [Header("N coloca nada na caixa abaixo")]
     public GameObject urutauTelhado;
@@ -37,6 +39,8 @@ public class Urutau : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         posicaoOriginal = transform.position;
         playerScript = FindObjectOfType<PlayerUrutau>();
+
+        animator = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -73,9 +77,11 @@ public class Urutau : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && urutausReqGrito >= playerScript.urutauSeguindo)
         {
             Grito();
+            animator.SetBool("uGrito", true);
         }
         if (seguindo)
         {
+            animator.SetBool("uVoo", true);
             if (urutauTelhado != null)
             {
                 IrAoPresente();

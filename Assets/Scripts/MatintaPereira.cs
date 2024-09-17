@@ -11,17 +11,46 @@ public class MatintaPereira : MonoBehaviour
     public AnimationCurve curva;
     public float duracao;
 
-    int matintaGritos;
+    [SerializeField] int matintaGritos;
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GritoSupremo();
+        }
     }
 
     private void GritoSupremo()
     {
         Shake();
 
+        if (matintaGritos == 0)
+        {
+            MoverUrutaus(urutausMatinta1);
+        }
+        else if (matintaGritos == 1)
+        {
+            MoverUrutaus(urutausMatinta2);
+        }
+        else if (matintaGritos == 2)
+        {
+            MoverUrutaus(urutausMatinta3);
+        }
+
+        matintaGritos = Mathf.Min(matintaGritos + 1, 2);
+    }
+
+    private void MoverUrutaus(GameObject[] urutaus)
+    {
+        foreach (GameObject urutauObj in urutaus)
+        {
+            Urutau urutauScript = urutauObj.GetComponent<Urutau>();
+            if (urutauScript != null)
+            {
+                //urutauScript.MoverComGritoAleatorio();
+            }
+        }
     }
 
     IEnumerator Shake()
